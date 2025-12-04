@@ -1,0 +1,585 @@
+Polypeptide deformylase
+Janus kinase 2
+Phosphodiesterase 5A
+Carbonic anhydrase I
+Carbonic anhydrase II
+Matrix metalloproteinase-1
+HMG-CoA reductase
+Erbb2 tyrosine kinase receptor
+Tropomyosin-related kinase A
+LCK tyrosine protein kinase
+Proto-oncogene c-Ret
+Matrix metalloproteinase-2
+Arachidonate 5-lipoxygenase
+Tyrosine-protein kinase Kit
+Proto-oncogene c-Src
+Adrenergic receptor beta-3
+Aldose reductase
+Monoamine oxidase type A
+Carbonic anhydrase IV
+Fms-like tyrosine kinase 3
+Plasmodium Dihydroorotate dehydrogenase
+Erbb4 tyrosine kinase receptor
+PI3-kinase delta
+Carbonic anhydrase XII
+Glutathione-dependent PGD synthase
+Coagulation factor IIa
+Coagulation factor Xa
+Angiotensinogenase renin
+Human immunodeficiency virus Protease
+Influenza Neuraminidase
+Thymidine kinase 1
+Steroid 17-alpha-monooxygenase
+Protein kinase C gamma
+Fyn tyrosine protein kinase
+Cationic trypsinogen
+Heat shock protein 90 alpha
+Insulin-like growth factor I receptor
+Proto-oncogene c-Met
+Proto-oncogene c-Ros
+Matrix metalloproteinase-7
+Complement C1s component
+Glucose-6-phosphate dehydrogenase
+Candida Thymidylate synthase
+Steroid 11-beta-hydroxylase
+Catechol-O-methyl-transferase
+Liver carboxylesterase
+Carbonic anhydrase VI
+Monoamine oxidase type B
+Phosphodiesterase 4A
+Adenosine A1 receptor
+Angiotensin II receptor type-1
+Ribonucleoside-diphosphate reductase M2
+Dihydrodiol dehydrogenase type I
+PI3-kinase alpha
+PI3-kinase gamma
+Janus kinase 3
+Voltage-gated calcium channel alpha Cav2.2
+Protein kinase C epsilon
+Glutamate carboxypeptidase II
+Calcineurin
+Phosphodiesterase 3A
+Tryptase alpha/beta-1
+Opioid receptor sigma 1
+Carbonic anhydrase XIV
+VEGFR1 messenger RNA
+PTPN1 messenger RNA
+Osteoclast differentiation factor
+Intestinal maltase-glucoamylase
+ATP-binding cassette transporter A1
+Interleukin 2 receptor alpha
+Human immunodeficiency virus Integrase
+NADH dehydrogenase
+Glucosylceramidase
+Sodium pump subunit alpha-1
+Amyloid beta A4 protein
+Cholesterol desmolase
+Alkaline phosphatase tissue-nonspecific
+Influenza M2 protein
+Adrenergic receptor beta-2
+Low-affinity nerve growth factor receptor
+5-HT 1A receptor
+Bacterial Dihydropteroate synthetase
+Debrisoquine 4-hydroxylase
+DNA topoisomerase I
+Estrogen-related receptor-alpha
+Leukocyte surface antigen Leu-16
+Dopamine D2 receptor
+GABA(A) receptor alpha-1
+B-lymphocyte surface antigen B4
+Quinone reductase 2
+Dehydropeptidase I
+Protein kinase C alpha
+GABA(A) receptor gamma-2
+Gastric H(+)/K(+) ATPase alpha
+Dopamine D1 receptor
+Dopamine D4 receptor
+Methylmalonyl-CoA mutase
+Janus kinase 1
+Interleukin 4 receptor alpha
+Hepatitis C virus NS3 helicase
+Hepatitis C virus RNA-directed RNA polymerase
+5-HT 1B receptor
+5-HT 2A receptor
+5-HT 2C receptor
+Cyclic ADP-ribose hydrolase 1
+Adenosine A2a receptor
+Interleukin-12 alpha
+Tyrosine-protein kinase UFO
+Calcitonin receptor
+GABA(A) receptor alpha-5
+Serotonin transporter
+Hydroxyphenylpyruvate dioxygenase
+GABA(A) receptor alpha-3
+Opioid receptor mu
+Dopamine D3 receptor
+Opioid receptor delta
+Opioid receptor kappa
+5-HT 2B receptor
+T-lymphocyte activation antigen CD86
+Neuronal acetylcholine receptor alpha-4
+Staphylococcus Plastid RNA polymerase beta
+GABA(A) receptor beta-2
+Angiotensin II receptor type-2
+Fatty aldehyde dehydrogenase
+Succinate-semialdehyde dehydrogenase
+Voltage-gated potassium channel Kv7.1
+Phosphogluconate dehydrogenase
+MAP kinase p38
+Alpha-N-acetylglucosaminidase
+GABA transaminase
+Bacterial Fatty acid synthetase I
+Mycobacterium D-alanine-D-alanine ligase A
+DNA topoisomerase II beta
+Phosphodiesterase 4D
+ATP-binding cassette transporter C8
+Voltage-gated potassium channel Kv11.1
+Protein-tyrosine phosphatase sigma
+5-HT 4 receptor
+Voltage-gated sodium channel alpha Nav1.5
+Interleukin-17
+Membrane copper amine oxidase
+Staphylococcus Topoisomerase IV
+Farnesoid X-activated receptor
+Vitamin K epoxide reductase complex 1
+ATP-binding cassette transporter G2
+B-cell-activating factor
+TERT messenger RNA
+ICAM1 messenger RNA
+Voltage-gated calcium channel alpha Cav3.1
+Transformation-sensitive protein p120
+Oxalosuccinate decarboxylase
+Diacylglycerol acyltransferase 1
+Voltage-gated calcium channel alpha Cav3.2
+Plasmodium DOXP reductoisomerase
+Phenylalanine hydroxylase
+Staphylococcus Beta-lactamase
+Bacterial Isoleucyl-tRNA synthetase
+Transforming growth factor beta 1
+Interferon-alpha 2
+Interferon-beta
+Serum albumin
+Human immunodeficiency virus Reverse transcriptase
+Influenza Hemagglutinin
+Intercellular adhesion molecule ICAM-1
+T-cell surface glycoprotein CD1a
+T-cell surface glycoprotein CD3 epsilon
+Adrenergic receptor beta-1
+Interleukin 6 receptor
+Adrenergic receptor alpha-2A
+Granulocyte colony-stimulating factor
+Bacterial UDP-N-acetylglucosamine carboxyvinyltransferase
+Growth hormone receptor
+Coagulation factor Va
+Immunoglobulin gamma Fc receptor IIA
+cAMP-dependent chloride channel
+Geranyltranstransferase
+GMCSFR-alpha
+Adrenergic receptor alpha-2B
+Adrenergic receptor alpha-2C
+Nuclear factor NF-kappa-B
+Myeloid cell surface antigen CD33
+Dopamine D5 receptor
+Iduronate 2-sulfatase
+Voltage-gated potassium channel Kv1.5
+Ferrochelatase
+Luteinizing hormone receptor
+Rotamase B
+Strychnine-binding glycine receptor
+Glycine receptor
+Norepinephrine transporter
+Endothelin B receptor
+Guanylyl cyclase C
+Endothelin A receptor
+Trypanosoma Cruzipain
+Interleukin 3 receptor alpha
+5-HT 1D receptor
+Adenosine A2b receptor
+Interleukin-12 beta
+GABA transporter GAT-1
+Steroid 5-alpha-reductase 2
+Carbamoyl-phosphate synthetase I
+Activation B7-1 antigen
+N-acetylgalactosamine 6 sulfatase
+Adrenergic receptor alpha-1A
+Neuronal acetylcholine receptor alpha-7
+Interferon gamma receptor
+Trypanosoma Trypanothione reductase
+Glutamate receptor AMPA 1
+Glutamate receptor AMPA 2
+Prostaglandin E2 receptor EP2
+5-HT 3A receptor
+Leptin receptor
+Interferon alpha/beta receptor 2
+Vascular endothelial growth factor B
+Biliverdin reductase A
+Voltage-gated calcium channel alpha-2/delta-1
+Serine/threonine PP1-alpha
+Rotamase A
+Hemoglobin
+Dopamine transporter
+Dihydroorotate dehydrogenase
+Parathyroid hormone 1 receptor
+Synaptic vesicle amine transporter
+Amidophosphoribosyltransferase
+Voltage-gated calcium channel alpha Cav1.2
+Neuronal acetylcholine receptor alpha-2
+Cytoplasmic thioredoxin reductase
+Bacterial DD-carboxypeptidase
+Asparaginase
+Transient receptor potential cation channel V1
+Carnitine O-palmitoyltransferase I
+Growth hormone secretagogue receptor 1
+Interleukin-23
+Gamma-aminobutyric acid B receptor
+Niemann-Pick C1-like protein 1
+Pancreatic elastase 1
+Leukotriene CysLT1 receptor
+Voltage-gated sodium channel alpha Nav1.8
+APOB messenger RNA
+Voltage-gated calcium channel alpha Cav2.1
+GABA(A) receptor delta
+Tripeptidyl-peptidase I
+ATP-binding cassette transporter C9
+Isocitrate dehydrogenase
+Epidermal growth factor
+Leutinizing-hormone-releasing hormone
+Parathyroid hormone
+Insulin
+Hepatitis B virus Reverse transcriptase
+MHC class II antigen DRB1*1
+Sodium/potassium-transporting ATPase
+Fatty acid-binding protein 1
+Glycoprotein IIb/IIIa receptor
+Immunoglobulin gamma Fc receptor III
+Bacterial Penicillin binding protein 2
+Bacterial Penicillin binding protein 3
+Calmodulin
+Candida Cytochrome P450 51
+DNA topoisomerase II
+S-mephenytoin 4-hydroxylase
+Bacterial Protective antigen
+cAMP-dependent chloride channel F508 deletion
+N-acetylgalactosamine-4-sulfatase
+Bacterial Urease
+Oxo-5-alpha-steroid 4-dehydrogenase
+Mannose-6-phosphate receptor
+Prostaglandin G/H synthase
+Adrenergic receptor alpha-1D
+Thioredoxin reductase
+5-HT 1F receptor
+Candida Mannose-6-phosphate isomerase
+Beta-catenin
+Adrenergic receptor alpha-1B
+Amiloride-sensitive sodium channel
+Vitamin K-dependent gamma-carboxylase
+Lysosomal acid lipase
+Fungal 1,3-beta-glucan synthase
+GABA(A) receptor alpha-2
+5-HT 5A receptor
+Fragile histidine triad protein
+Cathelicidin antimicrobial peptide
+Ras-related protein Rab-9A
+Solute carrier family 12 member 3
+Microsomal triglyceride transfer protein
+Synaptosomal-associated protein 25
+Troponin C
+Inward rectifier potassium channel Kir1.2
+Mycobacterium Arabinosyltransferase C
+Dihydrothymine dehydrogenase
+Solute carrier family 12 member 1
+Interleukin 11 receptor alpha
+Orphan nuclear receptor NR1I3
+Long transient receptor potential channel 8
+Nicotinic acid receptor
+Plasmodium Enoyl-ACP reductase
+Urate anion exchanger 1
+Plasmodium Glutamate dehydrogenase
+Voltage-gated sodium channel alpha Nav1.3
+Interleukin-37
+Mitochondrial rRNA methyltransferase 2
+Voltage-gated potassium channel Kv4.3
+Transthyretin messenger RNA
+Human immunodeficiency virus Envelope messenger RNA
+Thymidylate synthase messenger RNA
+CCR5 messenger RNA
+Staphylococcus Leucyl-tRNA synthetase
+Staphylococcus 30S ribosomal subunit
+Bacterial Fumarate reductase flavoprotein
+Neuronal acetylcholine receptor alpha-1
+Influenza Polymerase acidic endonuclease
+Herpes simplex virus DNA polymerase UL30
+Human immunodeficiency virus Tat protein
+C1 esterase inhibitor
+Bacterial Pyruvate decarboxylase
+Adenine nucleotide translocator 1
+Atrial natriuretic peptide receptor A
+Cytomegalovirus Terminase UL56
+Clostridium difficile Toxin B
+Staphylococcus DNA gyrase A
+Fucosyltransferase IV
+Ribonucleotide reductase
+Hepatitis C virus Non-structural 5A
+5-HT 1E receptor
+Lymphocyte activation antigen CD30
+Immunoglobulin epsilon Fc receptor gamma
+Cambridge pathology 1 antigen
+Carcinoembryonic antigen CGM1
+Glutamate receptor AMPA 3
+Neuronal acetylcholine receptor alpha-4/beta-2
+Glutamate receptor AMPA 4
+Iodothyronine deiodinase type I
+Mycobacterium Biosynthetic alanine racemase
+Interleukin 5 receptor alpha
+Melanocortin receptor 2
+Soluble guanylyl cyclase
+Duffy antigen chemokine receptor
+Aspergillus Mannitol-1-phosphate 5-dehydrogenase
+Hepatitis B virus Polymerase
+Corynebacterium Mutated CRM197
+Cryptosporidium Pyruvate:ferredoxin oxidoreductase
+Interleukin 17 receptor
+Solute carrier family 29 member 1
+GABA(A) receptor gamma-3
+SLAM family member 7 SLAMF7
+Voltage-gated sodium channel alpha Nav1.9
+Mcl-1 messenger RNA
+Streptococcus Elongation factor G
+Acetaldehyde dehydrogenase
+Respiratory syncytial virus protein F
+Phospholipase A2 inhibitory protein
+Human immunodeficiency virus Glycoprotein 41
+Varicella-zoster virus DNA polymerase
+Bacterial RNA polymerase sigma factor SigA
+Fusion protein Bcr-Abl
+Steroid hormone receptor ERR
+Bacillus anthracis Protective antigen
+Integrin alpha-4/beta-7
+Tryptophan hydroxylase
+Surface glycoprotein LFA-3
+Gastric H(+)/K(+) ATPase
+Bacterial DNA gyrase
+Hepatitis C virus Serine protease NS3/4A
+Pneumocystis carinii Dihydropteroate synthase
+Neuronal acetylcholine receptor alpha-3/beta-4
+Solute carrier family 19 member 1
+Mycobacterium RNA polymerase
+Soluble guanylate cyclase
+Tubulin beta-2 chain
+Inositol 1,4,5-trisphosphate receptor
+Dihydropyrimidinase related protein 2
+Onchocerca Glutamate-gated chloride channel
+Aspergillus Mannitol 2-dehydrogenase
+Calcium-dependent chloride channel anoctamin
+Plasmodium DNA gyrase
+Acetyl-CoA:lyso-PAF acetyltransferase
+Candida Squalene epoxidase
+Solute carrier family 23 member 2
+Hyaluronic acid receptor
+Cytomegalovirus IE2 region messenger RNA
+Mycobacterium Proton pump
+Pediculus humanus Nicotinic acetylcholine receptor
+Fibrin
+Electron transport complex III
+Vesicle-associated membrane protein
+Variola virus Envelope phospholipase F13
+Epstein-Barr virus Envelope glycoprotein gp340
+Microtubule-associated protein
+Organic anion transporter M1
+Taste receptor
+Solute carrier family 47 member 1
+Bacterial Integral membrane LmrP
+Solute carrier family 23 member 1
+Bacterial 16S ribosomal RNA
+Bacterial 23S ribosomal RNA
+Bacterial 50S ribosomal RNA
+Bacterial 30S ribosomal RNA
+Bacterial 70S ribosomal RNA
+Bacterial Deoxyribonucleic acid
+Calcium
+Fungal Cell membrane ergosterol
+Human Deoxyribonucleic acid
+Human Deoxyribonucleic acid major groove
+Hyaluronic acid
+Iron
+Phosphate
+Plasmodium 80S ribosome
+Plasmodium Deoxyribonucleic acid
+Potassium
+Reactive oxygen species
+Samarium
+Schistosoma Deoxyribonucleic acid
+Toxic methotrexate
+Toxic reactive metabolite
+Uric acid
+Virus Deoxyribonucleic acid
+Angiopoietin-2
+Enhancer of zeste homolog 2
+HIF-prolyl hydroxylase 1
+SOD1 messenger RNA
+Glucocorticoid receptor messenger RNA
+PCSK9 messenger RNA
+von Willebrand factor
+Cerebroside-sulfatase
+C5a anaphylatoxin chemotactic receptor
+TYK2 tyrosine kinase
+Farnesyl protein transferase
+Melanocortin receptor 1
+Calcitonin gene-related peptide receptor
+ApoC-III messenger RNA
+SLC5A2 messenger RNA
+Cytomegalovirus Ganciclovir kinase
+B-cell-specific glycoprotein B29
+Thymic stromal lymphopoietin
+Gamma-secretase
+Cytokine ML-1
+Sclerostin
+Melanocytes lineage-specific antigen GP100
+Nectin cell adhesion molecule 4
+Hypoxia-inducible factor 2 alpha
+IL-1 receptor-like 2
+Angiopoietin-related protein 3
+Human immunodeficiency virus Capsid p24
+Human immunodeficiency virus Envelope glycoprotein gp120
+Alpha-glucosidase
+Lymphocyte activation gene 3 protein
+B-cell maturation protein
+Human Deoxyribonucleic acid minor groove
+EGFR T790M mutant
+Bacterial DNA topoisomerase 4A
+Neonatal Fc receptor
+Casein kinase I epsilon
+Mycobacterium Mycolic acid synthase
+Nicotinic acetylcholine receptor
+Fatty acid amide hydrolase
+Glutamate receptor AMPA
+Interleukin 2 receptor
+Sodium channel unspecific
+Tubulin beta
+Phosphodiesterase 1
+Tubulin
+5-HT 2 receptor
+5-HT 3 receptor
+Adrenergic receptor Alpha-1
+Calcium-activated potassium channel
+Phosphodiesterase 4
+Carbonic anhydrase
+Platelet-derived growth factor receptor
+Kallikrein-related peptidase
+Histone deacetylase
+DNA [cytosine-5]-methyltransferase
+5-HT receptor
+Adenosine receptor
+Adrenergic receptor Alpha-2
+Folate receptor
+Guanylate cyclase
+Interferon alpha
+Phosphodiesterase 3
+Sarcoplasmic/endoplasmic reticulum calcium ATPase
+Voltage-gated L-type calcium channel
+MAPK/ERK kinase kinase
+Vascular endothelial growth factor
+Retinoic acid receptor
+Tyrosine-protein kinase
+N-methyl-D-aspartate receptor
+ERK activator kinase
+Adrenergic receptor
+Bacterial Penicillin binding protein
+Calcium channel unspecific
+Hyperpolarization cyclic nucleotide-gated channel
+Inosine-5'-monophosphate dehydrogenase
+Multidrug resistance protein
+Muscarinic acetylcholine receptor
+Opioid receptor
+Vascular endothelial growth factor receptor
+Gamma-aminobutyric acid uptake
+Poly [ADP-ribose] polymerase
+Monoamine oxidase
+Rho-associated protein kinase
+Cysteine protease
+Fungal Microtubule
+Gamma-aminobutyric acid receptor
+HIF-prolyl hydroxylase
+Histamine receptor
+Hyaluronidase
+Potassium channel unspecific
+Serine protease unspecific
+T-cell surface glycoprotein CD3
+Vasopressin receptor
+Vasopressin V1 receptor
+Voltage-gated calcium channel
+Voltage-gated sodium channel
+Bacterial RNA polymerase switch region
+Endothelium of blood vessels
+Bacterial Ribosome
+Cannabinoid receptor
+Cholinergic receptor unspecific
+Collagen
+Cytochrome P450 3A
+Cytomegalovirus Terminase
+DNA-directed RNA polymerase
+Endopeptidase
+Enzyme unspecific
+Fungal Proton pump
+Glutamine receptor
+Immunoglobulin unspecific
+Neuronal acetylcholine receptor alpha
+Oxidoreductase unspecific
+Prostaglandin receptor
+Protease unspecific
+Proteasome
+Ribosome A
+Ryanodine receptor
+Sodium pump
+Estramustine binding protein
+Peripheral carotid chemoreceptor
+Sinus node I(f) channel
+Streptococcus Diphtheria protein
+Tumor-associated glycoprotein 72
+Adrenergic neuron
+Bacterial Cell membrane
+Fungal Cell membrane
+Acetylcholine release
+Angiogenesis/myeloma cell growth
+Beta-hematin formation
+Cell mediated immunity response
+DNA replication
+DNA synthesis
+Hedgehog signaling pathway
+HGF/Met signaling pathway
+Lymphoid cell adhesion molecule expression
+Natural killer cell activation
+NFE2-related factor 2 pathway
+PI3K/AKT/mTOR pathway
+RNA synthesis
+Serotoninnorepinephrinedopamine reuptake
+T(H2) cytokine production
+Tromboxane A2 synthesis
+Fibroblast growth factor receptor
+Immunoglobulin Fc receptor
+Matrix metalloproteinase
+Sphingosine-1 phosphate receptor
+Calcitonin gene-related peptide
+GABA(A) receptor
+Myosin
+Transferase unspecific
+Cholesterol synthesis
+Tubulin polymerization
+Orexin receptor
+Ebola virus Envelope glycoprotein
+Dabigatran
+Tumor associated calcium signal transducer 2
+EGFR Exon20ins mutant
+G-protein coupled receptor C 5D
+LDHA messenger RNA
+KRAS G12C mutant
+ALAS1 messenger RNA
+Inhibitor of nuclear factor kappa-B kinase beta
+Voltage-gated potassium channel Kv7.3
+Neutral endopeptidase
+Dystrophin messenger RNA
+Hepatitis B virus Large envelope protein
+SMN1 messenger RNA
+Voltage-gated potassium channel Kv7
+HAO1 messenger RNA
+Glutathione reductase

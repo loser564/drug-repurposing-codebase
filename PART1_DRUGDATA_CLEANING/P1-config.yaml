@@ -1,0 +1,10 @@
+raw_paths:
+  p1_01_ttd : "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/RAW_DATA/P1-01-TTD_target_download.txt"
+  polymer_table: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/RAW_DATA/polymer_fixed.tsv"
+
+processed_paths:
+  parsed_target : "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/PROCESSED_DATA/parsed_target.csv"
+  drug_target_final : "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/PROCESSED_DATA/drug_target_final.csv"
+  polymer_final : "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/PROCESSED_DATA/polymer_final.csv"
+  all_drugs: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/PROCESSED_DATA/all_drugs.csv"
+
