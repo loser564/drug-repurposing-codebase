@@ -1,0 +1,62 @@
+
+
+# You can define more than one pair here if you want.
+all_drugs: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/PROCESSED_DATA/all_drugs.csv"
+drug_names_file: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/PROCESSED_DATA/drug_names.txt"
+disease_pairs:
+  - name: "diabetes_crc"
+
+    # --- file paths for this pair ---
+    initial_pmid_list : "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/PROCESSED_DATA/initial_diabetes_crc.csv"
+    reports_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LITERATURE/webscrape_results"
+    results_json: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LITERATURE/webscrape_results/drug_mesh_joint_results_test.json"
+
+    # --- PubMed search settings ---
+    retmax: 50
+    sleep_between_drugs: 0.5
+
+    # optional extra filters for therapy context
+    therapy_terms:
+      - "\"drug therapy\""
+
+    # --- the two disease “blocks” involved in the joint query ---
+    diseases:
+      - id: "diabetes"
+        label: "Diabetes-related"
+        # these are used to build the PubMed Boolean query
+        query_terms:
+          - "\"diabetes mellitus\""
+          - "\"type 2 diabetes\""
+          - "\"insulin resistance\""
+          - "hyperglycemia"
+          - "\"glucose metabolism\""
+        # these are substrings we look for in MeSH terms to tag as “diabetes hits”
+        mesh_match_substrings:
+          - "Diabetes"
+          - "Hyperglycemia"
+          - "Insulin Resistance"
+          - "Glucose Metabolism Disorders"
+          - "Diabetes Mellitus"
+
+      - id: "crc"
+        label: "Colorectal-cancer-related"
+        query_terms:
+          - "\"colorectal cancer\""
+          - "\"colorectal neoplasms\""
+          - "\"colon cancer\""
+          - "\"colonic neoplasms\""
+          - "\"rectal cancer\""
+          - "\"rectal neoplasms\""
+        mesh_match_substrings:
+          - "Colorectal Neoplasms"
+          - "Colorectal Cancer"
+          - "Colonic Neoplasms"
+          - "Rectal Neoplasms"
+          - "Adenocarcinoma, Colorectal"
+          - "Colon Neoplasms"
+          - "Rectal Cancer"
+
+    abstract_summary:
+      drug_abstract : C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LITERATURE/drug_abstracts
+      entrez_tool : "CRC_Diabetes_AbstractFetcher"
+      summarised_abstracts : C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LITERATURE/summarised_abstracts
