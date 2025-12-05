@@ -10,7 +10,7 @@ disease_pairs:
     initial_pmid_list : "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/PROCESSED_DATA/initial_diabetes_crc.csv"
     reports_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LITERATURE/webscrape_results"
     results_json: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LITERATURE/webscrape_results/drug_mesh_joint_results_test.json"
-
+    final_config: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/PROCESSED_DATA/diabetes_crc_final.csv"
     # --- PubMed search settings ---
     retmax: 50
     sleep_between_drugs: 0.5
