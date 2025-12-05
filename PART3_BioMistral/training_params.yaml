@@ -1,0 +1,71 @@
+model:
+  id: "BioMistral/BioMistral-7B"
+  output_dir: "biomistral-7b-qlora-finetune"
+  load_in_4bit: true
+  torch_dtype: "bf16" if torch.cuda.is_bf16_supported() else "fp16"
+  max_memory:
+    "0": "23GiB"
+    "cpu": "32GiB"
+  offload_folder: "offload_cache"
+  trust_remote_code: true
+
+bnb:
+  quant_type: "nf4"                 # nf4 | fp4
+  double_quant: true
+  compute_dtype:  "bf16" if torch.cuda.is_bf16_supported() else "fp16"
+
+
+
+data:
+  dropna_cols:
+    - "Drug"
+    - "Receptor"
+    - "report"
+  test_size: 0.2
+  seed: 42
+  max_seq_length: 2048
+  packing: false
+
+lora:
+  r: 16
+  alpha: 32
+  dropout: 0.05
+  bias: "none"
+  target_modules:
+    - "q_proj"
+    - "k_proj"
+    - "v_proj"
+    - "o_proj"
+    - "gate_proj"
+    - "up_proj"
+    - "down_proj"
+
+train:
+  epochs: 3
+  per_device_train_batch_size: 1
+  per_device_eval_batch_size: 1
+  gradient_accumulation_steps: 16
+  learning_rate: 0.0002
+  scheduler: "cosine"
+  warmup_ratio: 0.05
+  weight_decay: 0.0
+  optim: "adamw_torch"
+  evaluation_strategy: "steps"
+  eval_steps: 200
+  save_steps: 200
+  save_total_limit: 2
+  logging_steps: 10
+  bf16: "auto"
+  fp16: "auto"
+  gradient_checkpointing: true
+  max_grad_norm: 1.0
+  seed: 42
+  report_to: "none"
+  load_best_model: true
+
+gen:
+  temperature: 0.2
+  top_p: 0.9
+  top_k: 50
+  max_new_tokens: 512
+  do_sample: true

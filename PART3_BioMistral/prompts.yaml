@@ -1,0 +1,97 @@
+prompts:
+  use_chat_format: true
+  system: "Use simple, precise language"
+
+  train_user_template: |
+    (Triple quotes indicate emphasis, and XML tags serve as delimiters.)
+    You will receive a drug name, its target receptor(s), associated PDB IDs,
+    and literature evidence summarizing its effects on colorectal cancer.
+
+    """Please follow the steps below"""
+    1. Read the literature summary and relate it to the chemical structure provided in the PDB IDs.
+    2. Explain how the drug interacts with the target receptors and relevant pathways of colorectal cancer.
+    3. Summarize the findings in the required structured JSON format.
+
+    <Output format>
+    {
+      "Mechanism": "<Describe how the drug exerts its biochemical or molecular effects>",
+      "Pathways": "<Summarize the affected signalling or metabolic pathways>",
+      "Evidence": "<Summarize supporting findings from the literature>",
+      "Uncertainties": "<List any conflicting or unclear points>"
+    }
+    </Output format>
+
+    <Input>
+    Drug: {Drug}
+    Receptor: {Receptor}
+    PDB IDs (if any): {PDB_ID}
+    Literature Evidence (verbatim snippets may include PMIDs):
+    {report}
+    </Input>
+
+    Constraints:
+    - Do NOT invent citations beyond what’s in the evidence.
+
+  val_user_template: |
+    (Triple quotes indicate emphasis, and XML tags serve as delimiters.)
+    You will receive a drug name, its target receptor(s), and associated PDB IDs related to colorectal cancer.
+    Using your prior biomedical knowledge (learned during fine-tuning), explain how the drug interacts with the
+    target receptors and signalling pathways.
+
+    """Please follow the steps below"""
+    1. Summarize succinctly the receptor’s structural or functional characteristics based on the given PDB IDs.
+    2. Explain how the drug binds or modulates these receptors.
+    3. Describe the downstream signalling pathways involved in colorectal cancer.
+    4. Identify any uncertainties or knowledge gaps.
+
+    <Output format>
+    {
+      "Mechanism": "<Explain the key molecular interaction mechanism>",
+      "Pathways": "<Summarize relevant signalling pathways>",
+      "Uncertainties": "<Note unclear or conflicting mechanisms>"
+    }
+    </Output format>
+
+    <Input>
+    Drug: {Drug}
+    Receptor: {Receptor}
+    PDB IDs (if any): {PDB_ID}
+    Evidence: Use only prior knowledge learned during fine-tuning; do not invent citations.
+    </Input>
+
+    Constraints:
+    - If unclear, explicitly state the uncertainty.
+
+  test_user_template: |
+    (Triple quotes indicate emphasis, and XML tags serve as delimiters.)
+    You will receive a drug name, its target receptor(s), and associated PDB IDs related to colorectal cancer.
+    Using your prior biomedical knowledge (learned during fine-tuning), explain how the drug interacts with the
+    target receptors and signalling pathways.
+
+    If no relation to colorectal cancer, print NO RELATION.
+    """Please follow the steps below"""
+    1. Summarize succinctly the receptor’s structural or functional characteristics based on the given PDB IDs.
+    2. Explain how the drug binds or modulates these receptors.
+    3. Describe the downstream signalling pathways involved in colorectal cancer.
+    4. Identify any uncertainties or knowledge gaps.
+
+    <Output format>
+    {
+      "Mechanism": "<Explain the key molecular interaction mechanism>",
+      "Pathways": "<Summarize relevant signalling pathways>",
+      "Uncertainties": "<Note unclear or conflicting mechanisms>"
+    }
+    </Output format>
+
+    <Input>
+    Drug: {Drug}
+    Receptor: {Receptor}
+    PDB IDs (if any): {PDB_ID}
+    Evidence: Use only prior knowledge learned during fine-tuning; do not invent citations.
+    </Input>
+
+    Constraints:
+    - If unclear, explicitly state the uncertainty.
+
+  few_shots: []
+  stop: []

@@ -1,0 +1,54 @@
+# ================================
+# Validation / Inference Parameters
+# ================================
+
+base_model_id: "BioMistral/BioMistral-7B"
+adapter_dir: "biomistral-7b-qlora-finetune"
+
+save_paths:
+  inference_reports: "biomistral_inference_reports.csv"
+  no_relation: "biomistral_norelation_reports.csv"
+  some_relation: "biomistral_somerelationreports.csv"
+  real_world_test: "biomistral_realworldtest.csv"
+
+merge_16bit: false
+
+# -------------------------------
+# Quantization (for 4-bit inference)
+# -------------------------------
+quantization:
+  load_in_4bit: true
+  quant_type: "nf4"       # "nf4" | "fp4"
+  double_quant: true
+  compute_dtype: "auto"   # computed in Python: "bf16" or "fp16"
+
+
+# -------------------------------
+# Generation parameters
+# -------------------------------
+generation:
+  temperature: 0.2
+  top_p: 0.9
+  top_k: 50
+  max_new_tokens: 512
+  do_sample: true
+  repetition_penalty: 1.05
+  stop_strings: []           # optional custom stop tokens
+  # beam search fields (optional)
+  # num_beams: 5
+  # num_return_sequences: 1
+
+# -------------------------------
+# Batch / Device
+# -------------------------------
+batch:
+  batch_size: 1
+  device_map: "auto"
+
+# -------------------------------
+# Expected column names from validation/test CSV
+# -------------------------------
+columns:
+  drug: "Drug"
+  receptor: "Receptor"
+  pdb: "PDB_ID"    # optional
