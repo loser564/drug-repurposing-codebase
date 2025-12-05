@@ -2,7 +2,7 @@ model:
   id: "BioMistral/BioMistral-7B"
   output_dir: "biomistral-7b-qlora-finetune"
   load_in_4bit: true
-  torch_dtype: "bf16" if torch.cuda.is_bf16_supported() else "fp16"
+  dtype: auto
   max_memory:
     "0": "23GiB"
     "cpu": "32GiB"
@@ -12,7 +12,7 @@ model:
 bnb:
   quant_type: "nf4"                 # nf4 | fp4
   double_quant: true
-  compute_dtype:  "bf16" if torch.cuda.is_bf16_supported() else "fp16"
+  compute_dtype:  auto
 
 
 

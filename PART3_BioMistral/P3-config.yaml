@@ -1,6 +1,6 @@
 input_file_paths:
-  drug_data_path : "/home/alicialam/Documents/data/crc_diabetes_drug_with_receptors.csv"
-  summaries_path :  "/home/alicialam/Documents/data/summarised_abstracts"
+  drug_data_path : "/home/alicialam/Documents/data/diabetes_crc_final.csv"
+  summaries_path :  "/home/alicialam/Documents/data/summarised_abstracts/summarised_abstracts"
   
 train_val_paths:
   train_path: "/home/alicialam/Documents/data/train_df.csv"

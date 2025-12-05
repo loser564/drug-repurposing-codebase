@@ -5,3 +5,12 @@ tabulate
 biopython
 python-dotenv
 openai
+transformers
+peft
+trl
+bitsandbytes
+datasets
+tokenizers
+torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+tqdm
+scikit-learn
