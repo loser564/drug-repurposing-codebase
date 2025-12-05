@@ -2,6 +2,7 @@ prompts:
   use_chat_format: true
   system: "Use simple, precise language"
 
+
   train_user_template: |
     (Triple quotes indicate emphasis, and XML tags serve as delimiters.)
     You will receive a drug name, its target receptor(s), associated PDB IDs,
@@ -13,12 +14,12 @@ prompts:
     3. Summarize the findings in the required structured JSON format.
 
     <Output format>
-    {
+    {{
       "Mechanism": "<Describe how the drug exerts its biochemical or molecular effects>",
       "Pathways": "<Summarize the affected signalling or metabolic pathways>",
       "Evidence": "<Summarize supporting findings from the literature>",
       "Uncertainties": "<List any conflicting or unclear points>"
-    }
+    }}
     </Output format>
 
     <Input>
