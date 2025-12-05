@@ -181,5 +181,14 @@ cython_debug/
 .cursorindexingignore
 
 
-## training configs
-.biomistral-7b-qlora-finetune
+# Ignore fine-tuned model weights
+biomistral-7b-qlora-finetune/
+offload_cache/
+*.safetensors
+*.bin
+*.pt
+*.ckpt
+*.log
+wandb/
+outputs/
+runs/
