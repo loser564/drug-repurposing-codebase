@@ -1,0 +1,376 @@
+Drug,Receptor,PDB_ID,generated_report,prompt_tier
+Metformin,Acetyl-CoA carboxylase 2,"3FF6,3TDC,2X24,3JRX,3JRW,2HJW,4HQ6,5KKN,3GLK,3GID,2DN8","{
+  ""Mechanism"": ""Metformin is an oral anti-hyperglycemic agent used to treat type 2 diabetes, thought to exert its effects via inhibition of mitochondrial complex I and activation of AMPK, leading to reduced hepatic glucose production and increased peripheral glucose uptake."",
+  ""Pathways"": ""The metabolic effects of metformin are plausibly relevant to CRC biology, but the evidence is indirect and does not implicate a specific signalling pathway. Metformin may reduce insulin resistance and hyperinsulinemia, which are risk factors for CRC and may contribute to tumor growth via IGF-1/PI3K/mTOR and other signalling pathways. Metformin may also directly inhibit mTOR signalling, which can suppress tumor growth and angiogenesis. However, metformin’s effects on mTOR are complex and context-dependent, and it is unclear whether metformin’s effects on mTOR signalling in CRC are beneficial or detrimental."",
+  ""Uncertainties"": ""The abstract provides no details on the chemical structure or molecular targets of the small molecules, so it is unclear how they relate to metformin. The abstract also does not provide any mechanistic or pathophysiological context beyond diabetes, so it is difficult to interpret how metformin might relate to CRC biology.""
+}",reviewer
+Pioglitazone,Peroxisome proliferator-activated receptor gamma,"3E00,3DZY,3DZU,7QB1,6L89,6K0T,6AD9,5HZC,5F9B,5DWL,5DVC,5DV8,5DV6,5DV3,5DSH,4PWL,4PVU,4JL4,4JAZ,4E4Q,4E4K,4A4W,4A4V,3R8I,3ADX,3ADW,3ADV,3ADU,3ADT,3ADS,2YFE,8REJ,6ZLY,6T9C,6QJ5,6L8B,6JQ7,6IJR,6F2L,5YCP,5YCN,5LSG,5GTP,5GTO,5GTN,7CXH,7CXG,9HX2,7CXI,4YT1,4O8F,3WMH,3VSP,3VSO,3VJI,3VJH,3HOD,3HO0,3D6D,3CDS,3CDP,3B3K,3AN4,3AN3,2ZNO,2ZK6,2ZK5,2ZK4,2ZK3,2ZK2,2ZK1,2ZK0,2I4Z,2I4P,2I4J,6ENQ,6AN1,3PO9,3PBA,6KTN,6KTM,8C0C,8ADF,7CXK,7CXL,7CXF,1I7I,3VN2,7CXJ,7CXE,3OSW,3OSI,2ZVT,7E0A,1NYX,8ZFT,8ZFS,8ZFR,8ZFQ,8ZFP,8ZFO,8ZFN,8FHG,8FHF,8FHE,8CPJ,8CPI,8CPH,8ATZ,8ATY,7P4E,7AWD,7AWC,7A7H,6Y3U,6VZO,6VZL,6TSG,6T6B,6PDZ,6ONJ,6ONI,6O68,6O67,6MD4,6MD2,6MD1,6MD0,6MCZ,6FZP,6DGO,4R2U,9O9N,9IWK,9CWN,9CK0,8HUP,8HUM,8FKG,8FKF,8FKE,8FKD,8FKC,8B95,8B94,8B93,8B92,8B90,8B8Y,8B8X,8B8W,8AQN,8AQM,7WGQ,7WGP,7WGO,7RLE,6DGQ,6DGL,6AVI,6AUG,4XLD,3TY0,3BC5,2P4Y,1ZEO,6FZG,8U57,7SQB,7SQA,6IJS,6FZJ,6DGR,6DGP,6DCU,6DBH,6D94,6D8X,3R5N,2XKW,1KNU,9L3T,8SC9,8PBO,8HHQ,8HHP,7WOX,7LOT,7EFQ,6JF0,6JEY,6FZY,6FZF,5WR1,5WR0,5WQX,5AZV,4XUM,4XUH,4XTA,3X1I,3X1H,3SZ1,2VV4,2VV3,2VV2,2VV1,2VV0,2VST,2VSR,2OM9,1WM0,8B91,8B8Z,6T1S,3PRG,3B0R,3B0Q,6T1V,6C1I,4R6S,7AHJ,6E5A,5U5L,5TTO,4R06,2Q6S,2Q6R,2Q61,2Q5S,2Q5P,2Q59,6VZN,6VZM,4OJ4,7JQG,7E2O,6MS7,8WFE,8DK4,6ILQ,6ICJ,5TWO,4CI5,3KMG,3K8S,3H0A,3FUR,2POB,1ZGY,1FM9,1FM6,8DSZ,8DSY,8DKV,8DKN,5JI0,2HFP,1K74,9F7X,9F7W,8BFF,8BF2,8BF1,6IZN,6IZM,5Z6S,5Z5S,4F9M,3V9Y,3V9V,3V9T,3T03,3S9S,3LMP,3B1M,5Y2T,5Y2O,3WJ5,3WJ4,6TDC,6DHA,6DH9,6C5T,5UGM,4EMA,4EM9,3QT0,3NOA,3IA6,3GBK,3G9E,3FEJ,3ET3,3ET0,2Q8S,2PRG,2HWR,2HWQ,2GTK,2G0H","{
+  ""Mechanism"": ""Pioglitazone is an agonist of peroxisome proliferator-activated receptor gamma (PPARγ), which regulates glucose homeostasis and adipocyte differentiation, and is used to treat type 2 diabetes. PPARγ is expressed in colon cancer cells and can promote cell proliferation and migration, suggesting a potential role in CRC biology."",
+  ""Pathways"": ""Pioglitazone activates PPARγ, which can increase insulin sensitivity and reduce hyperglycemia. Hyperglycemia is a risk factor for diabetes-associated colorectal cancer, so pioglitazone-mediated glycemic control might exert an anticancer effect via this pathway. Pioglitazone can also activate PPARγ to regulate adipogenesis, which may be relevant to obesity-related CRC. Additionally, PPARγ signaling can modulate inflammatory pathways that are implicated in both diabetes and CRC (e.g., NF-κB, MAPK, TNF-α), so pioglitazone may influence CRC biology via anti-inflammatory effects mediated by PPARγ."",
+  ""Uncertainties"": ""The abstract does not provide sufficient detail to assess whether the proposed mechanism is plausible in CRC. The abstract mentions that pioglitazone can activate PPARγ, which can inhibit colorectal cancer cell proliferation in vitro and tumor growth in vivo, but it does not describe any specific link between pioglitazone and colorectal cancer beyond this general antiproliferative effect. There is no evidence presented that pioglitazone has a direct or specific connection to colorectal cancer biology, and the abstract does not discuss potential downstream signaling pathways or biochemical mechanisms that could connect pioglitazone treatment to CRC biology. The abstract suggests that pioglitazone might exert an anticancer effect via improved glycemic control in diabetic patients, but it does not provide evidence that pioglitazone has a clinically meaningful effect on glucose homeostasis in the context of CRC. Overall, the abstract provides limited evidence supporting a plausible connection between pioglitazone and colorectal cancer biology.""
+ }",reviewer
+Alogliptin,Dipeptidyl peptidase 4,"2QTB,2QT9,2BGR,2JID,3F8S,2QJR,3W2T,3VJM,3VJL,3VJK,1WCY,1J2E,3QBJ,1PFQ,4PV7,8ZDX,2RIP,9JMM,9JMJ,5Y7K,5Y7J,5Y7H,4LKO,4L72,4JH0,4J3J,4DTC,4DSZ,4DSA,3OC0,3KWJ,3KWF,3H0C,3EIO,3BJM,2OQI,2OLE,2OGZ,2BUB,2BGN,2AJL,1W1I,1TKR,1TK3,1RWQ,1NU8,1NU6,1N1M,8WKU,4QZV,3SX4,3SWW,3Q0T,3NOX,2RGU,1R9N,9GOH,5KBY,4KR0,4G1F,3OPM,3O9V,3O95,3G0G,3G0D,3G0C,3G0B,3CCC,3CCB,1U8E,1R9M,3WQH,6B1O,6B1E,5T4H,5T4F,5T4E,5T4B,5ISM,5I7U,4PNZ,4N8E,4N8D,4A5S,3HAC,3HAB,3D4L,3C45,3C43,2QOE,2QKY,2P8S,2OPH,2IIV,2IIT,2HHA,2FJP,1X70,2ONC,5ZID,5J3J,2OQV,2OAG,2I78,2I03,2G63,2G5T,2G5P,3Q8W,9LBT,5LLS,8ZE6,7XNM,2BUC,2BUA,2AJD,2AJC,2AJB,2AJ8,1ORW,1ORV","{
+  ""Mechanism"": ""Dipeptidyl peptidase 4 (DPP4) is a serine protease expressed in various tissues including the gastrointestinal tract, where it can regulate glucose homeostasis by degrading incretins such as GLP-1. Alogliptin is a DPP4 inhibitor used to treat type 2 diabetes by increasing circulating GLP-1 levels and thereby reducing postprandial glucose excursions. No evidence suggests DPP4 inhibition affects colorectal cancer directly, but DPP4 expression is linked to metastatic colorectal cancer and poor prognosis in patients with diabetes, suggesting a possible tumor-promoting role in colorectal cancer progression."",
+  ""Pathways"": ""No direct link to colorectal cancer was found, but DPP4 expression is associated with metastatic colorectal cancer and poor prognosis in diabetic patients, suggesting a possible tumor-promoting role of DPP4 in colorectal cancer progression."",
+  ""Uncertainties"": ""No direct link to colorectal cancer was found, but DPP4 expression is associated with metastatic colorectal cancer and poor prognosis in diabetic patients, suggesting a possible tumor-promoting role of DPP4 in colorectal cancer progression.""
+}",reviewer
+Linagliptin,Dipeptidyl peptidase 4,"2QTB,2QT9,2BGR,2JID,3F8S,2QJR,3W2T,3VJM,3VJL,3VJK,1WCY,1J2E,3QBJ,1PFQ,4PV7,8ZDX,2RIP,9JMM,9JMJ,5Y7K,5Y7J,5Y7H,4LKO,4L72,4JH0,4J3J,4DTC,4DSZ,4DSA,3OC0,3KWJ,3KWF,3H0C,3EIO,3BJM,2OQI,2OLE,2OGZ,2BUB,2BGN,2AJL,1W1I,1TKR,1TK3,1RWQ,1NU8,1NU6,1N1M,8WKU,4QZV,3SX4,3SWW,3Q0T,3NOX,2RGU,1R9N,9GOH,5KBY,4KR0,4G1F,3OPM,3O9V,3O95,3G0G,3G0D,3G0C,3G0B,3CCC,3CCB,1U8E,1R9M,3WQH,6B1O,6B1E,5T4H,5T4F,5T4E,5T4B,5ISM,5I7U,4PNZ,4N8E,4N8D,4A5S,3HAC,3HAB,3D4L,3C45,3C43,2QOE,2QKY,2P8S,2OPH,2IIV,2IIT,2HHA,2FJP,1X70,2ONC,5ZID,5J3J,2OQV,2OAG,2I78,2I03,2G63,2G5T,2G5P,3Q8W,9LBT,5LLS,8ZE6,7XNM,2BUC,2BUA,2AJD,2AJC,2AJB,2AJ8,1ORW,1ORV","{
+  ""Mechanism"": ""Linagliptin is a DPP-4 inhibitor used to treat type 2 diabetes by reducing hyperglycemia. Dipeptidyl peptidase 4 (DPP4) is a serine protease expressed in many tissues including the gut, where it cleaves peptides such as incretins that modulate insulin secretion in response to food intake. DPP4 is also expressed in immune cells and can modulate inflammatory responses, and DPP4 inhibition has been linked to reduced tumor-associated inflammation and improved survival in murine models of colon cancer. This suggests a plausible mechanism whereby linagliptin could reduce hyperglycemia by blocking DPP4-mediated degradation of incretins, while also exerting anti-inflammatory effects in the tumor microenvironment that could benefit CRC patients. However, linagliptin’s effects on DPP4-mediated signaling are complex and can involve multiple pathways, and it’s unclear how these would interact with CRC biology. For example, DPP4 can activate epidermal growth factor receptor (EGFR) signaling via cleavage of heparin-binding EGF-like growth factor (HB-EGF), which can promote tumor proliferation and metastasis in some contexts but may also have tumor-suppressive effects in CRC. Overall, linagliptin’s dual glucose-lowering and anti-inflammatory effects suggest a plausible link to CRC biology, but the specific signaling pathways involved are complex and uncertain."",
+  ""Pathways"": ""Linagliptin’s effects on DPP4-mediated signaling are complex and can involve multiple pathways, including those related to glucose metabolism (e.g. HB-EGF/EGFR), inflammation (e.g. NF-κB), and cancer (e.g. MAPK/ERK). However, it’s unclear how these pathways would interact with CRC biology, and linagliptin’s effects on DPP4-mediated signaling are complex and can involve multiple pathways, including those related to glucose metabolism (e.g. HB-EGF/EGFR), inflammation (e.g. NF-κB), and cancer (e.g. MAPK/ERK)."",
+  ""Uncertainties"": ""Linagliptin’s effects on DPP4-mediated signaling are complex and can involve multiple pathways, including those related to glucose metabolism (e.g. HB-EGF/EGFR), inflammation (e.g. NF-κB), and cancer (e.g. MAPK/ERK). It’s unclear how these pathways would interact with CRC biology, and linagliptin’s effects on DPP4-mediated signaling are complex and can involve multiple pathways, including those related to glucose metabolism (e.g. HB-EGF/EGFR), inflammation (e.g. NF-κB), and cancer (e.g. MAPK/ERK).""
+}
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.
+- Use “may” or “could” for speculative parts of the story.
+
+
+Constraints:
+- Do NOT invent citations beyond what’",reviewer
+Sitagliptin,Dipeptidyl peptidase 4,"2QTB,2QT9,2BGR,2JID,3F8S,2QJR,3W2T,3VJM,3VJL,3VJK,1WCY,1J2E,3QBJ,1PFQ,4PV7,8ZDX,2RIP,9JMM,9JMJ,5Y7K,5Y7J,5Y7H,4LKO,4L72,4JH0,4J3J,4DTC,4DSZ,4DSA,3OC0,3KWJ,3KWF,3H0C,3EIO,3BJM,2OQI,2OLE,2OGZ,2BUB,2BGN,2AJL,1W1I,1TKR,1TK3,1RWQ,1NU8,1NU6,1N1M,8WKU,4QZV,3SX4,3SWW,3Q0T,3NOX,2RGU,1R9N,9GOH,5KBY,4KR0,4G1F,3OPM,3O9V,3O95,3G0G,3G0D,3G0C,3G0B,3CCC,3CCB,1U8E,1R9M,3WQH,6B1O,6B1E,5T4H,5T4F,5T4E,5T4B,5ISM,5I7U,4PNZ,4N8E,4N8D,4A5S,3HAC,3HAB,3D4L,3C45,3C43,2QOE,2QKY,2P8S,2OPH,2IIV,2IIT,2HHA,2FJP,1X70,2ONC,5ZID,5J3J,2OQV,2OAG,2I78,2I03,2G63,2G5T,2G5P,3Q8W,9LBT,5LLS,8ZE6,7XNM,2BUC,2BUA,2AJD,2AJC,2AJB,2AJ8,1ORW,1ORV","{
+  ""Mechanism"": ""Sitagliptin is an inhibitor of dipeptidyl peptidase 4 (DPP4), which cleaves the N-terminal dipeptide from various peptides including incretins such as glucagon-like peptide 1 (GLP-1). GLP-1 is a hormone secreted by intestinal L-cells in response to food intake, and it has been shown to lower blood glucose by increasing insulin secretion and decreasing glucagon secretion. DPP4 inhibition by sitagliptin can therefore increase GLP-1 levels and improve glycemic control in type 2 diabetes patients, leading to the use of sitagliptin as an antidiabetic medication. GLP-1 receptor signaling has also been implicated in colorectal cancer biology, where GLP-1 receptor agonists have been shown to promote apoptosis and inhibit proliferation in CRC cell lines, suggesting a potential tumor suppressive role for GLP-1 signaling. However, GLP-1 receptor expression is complex and context-dependent in CRC, and GLP-1 receptor agonists have not demonstrated consistent efficacy in CRC clinical trials. It is therefore unclear whether sitagliptin-mediated increases in GLP-1 would have a clinically relevant impact on CRC biology or survival."",
+  ""Pathways"": ""Increased GLP-1 signaling via DPP4 inhibition by sitagliptin may affect colorectal cancer biology through GLP-1 receptor-mediated pathways, but the overall effect is unclear due to conflicting findings in preclinical and clinical studies. No specific signaling pathways were directly linked to colorectal cancer in this context."",
+  ""Uncertainties"": ""The GLP-1 receptor has complex and context-dependent effects on colorectal cancer biology, and it is unclear whether sitagliptin-mediated increases in GLP-1 would have a clinically relevant impact on CRC survival or biology.""
+}",reviewer
+Saxagliptin,Dipeptidyl peptidase 4,"2QTB,2QT9,2BGR,2JID,3F8S,2QJR,3W2T,3VJM,3VJL,3VJK,1WCY,1J2E,3QBJ,1PFQ,4PV7,8ZDX,2RIP,9JMM,9JMJ,5Y7K,5Y7J,5Y7H,4LKO,4L72,4JH0,4J3J,4DTC,4DSZ,4DSA,3OC0,3KWJ,3KWF,3H0C,3EIO,3BJM,2OQI,2OLE,2OGZ,2BUB,2BGN,2AJL,1W1I,1TKR,1TK3,1RWQ,1NU8,1NU6,1N1M,8WKU,4QZV,3SX4,3SWW,3Q0T,3NOX,2RGU,1R9N,9GOH,5KBY,4KR0,4G1F,3OPM,3O9V,3O95,3G0G,3G0D,3G0C,3G0B,3CCC,3CCB,1U8E,1R9M,3WQH,6B1O,6B1E,5T4H,5T4F,5T4E,5T4B,5ISM,5I7U,4PNZ,4N8E,4N8D,4A5S,3HAC,3HAB,3D4L,3C45,3C43,2QOE,2QKY,2P8S,2OPH,2IIV,2IIT,2HHA,2FJP,1X70,2ONC,5ZID,5J3J,2OQV,2OAG,2I78,2I03,2G63,2G5T,2G5P,3Q8W,9LBT,5LLS,8ZE6,7XNM,2BUC,2BUA,2AJD,2AJC,2AJB,2AJ8,1ORW,1ORV","{
+  ""Mechanism"": ""Saxagliptin is an inhibitor of dipeptidyl peptidase 4 (DPP-4), which is involved in glucose metabolism and can regulate insulin secretion and glycaemic control. DPP-4 inhibition is used to treat type 2 diabetes, and DPP-4 inhibitors have been investigated for anti-cancer effects including in colorectal cancer (CRC)."",
+  ""Pathways"": ""In CRC, DPP-4 expression is elevated and associated with poor prognosis, suggesting a role in tumour progression. DPP-4 inhibition by saxagliptin reduced tumour growth and metastasis in CRC xenograft models, and was linked to reduced angiogenesis and altered tumour microenvironment (TME) immune cell infiltration (e.g. increased CD8+ T cells, decreased Tregs and MDSCs), suggesting DPP-4 inhibition may exert anti-tumour effects via immune-related mechanisms. However, it is unclear whether these findings are directly related to saxagliptin or simply DPP-4 inhibition by any agent, and the underlying mechanisms are not well understood."",
+  ""Uncertainties"": ""There is limited direct evidence of a clear link between saxagliptin and CRC, and the reported anti-tumour effects of DPP-4 inhibition are based on preclinical studies rather than clinical trials. The proposed mechanism involves DPP-4 inhibition reducing tumour angiogenesis and altering immune cell infiltration in the TME, but the relevance to saxagliptin and its potential efficacy in CRC is unclear.""
+ 
+}",reviewer
+Vildagliptin,Dipeptidyl peptidase 4,"2QTB,2QT9,2BGR,2JID,3F8S,2QJR,3W2T,3VJM,3VJL,3VJK,1WCY,1J2E,3QBJ,1PFQ,4PV7,8ZDX,2RIP,9JMM,9JMJ,5Y7K,5Y7J,5Y7H,4LKO,4L72,4JH0,4J3J,4DTC,4DSZ,4DSA,3OC0,3KWJ,3KWF,3H0C,3EIO,3BJM,2OQI,2OLE,2OGZ,2BUB,2BGN,2AJL,1W1I,1TKR,1TK3,1RWQ,1NU8,1NU6,1N1M,8WKU,4QZV,3SX4,3SWW,3Q0T,3NOX,2RGU,1R9N,9GOH,5KBY,4KR0,4G1F,3OPM,3O9V,3O95,3G0G,3G0D,3G0C,3G0B,3CCC,3CCB,1U8E,1R9M,3WQH,6B1O,6B1E,5T4H,5T4F,5T4E,5T4B,5ISM,5I7U,4PNZ,4N8E,4N8D,4A5S,3HAC,3HAB,3D4L,3C45,3C43,2QOE,2QKY,2P8S,2OPH,2IIV,2IIT,2HHA,2FJP,1X70,2ONC,5ZID,5J3J,2OQV,2OAG,2I78,2I03,2G63,2G5T,2G5P,3Q8W,9LBT,5LLS,8ZE6,7XNM,2BUC,2BUA,2AJD,2AJC,2AJB,2AJ8,1ORW,1ORV","{
+  ""Mechanism"": ""Vildagliptin is a DPP-4 inhibitor used to treat type 2 diabetes by reducing hyperglycaemia via increased insulin secretion. It has been reported to increase colorectal cancer incidence in diabetic patients in some studies but not others, suggesting a complex interplay between diabetes, hyperinsulinaemia, and DPP-4 inhibition that is difficult to disentangle."",
+  ""Pathways"": ""Vildagliptin inhibits DPP-4, which cleaves active GLP-1 into inactive fragments. GLP-1 is a gut hormone that stimulates insulin secretion and reduces appetite, and its levels are correlated with better diabetes control and reduced body weight. GLP-1R signalling activates multiple pro-tumourigenic pathways including PI3K/AKT/mTOR and MAPK/ERK, and GLP-1R agonists have shown promise in preclinical CRC models. However, it is unclear whether DPP-4 inhibition by vildagliptin would affect GLP-1 bioactivity or signalling in CRC, and whether any effects would be direct or indirect."",
+  ""Uncertainties"": ""The evidence linking vildagliptin and colorectal cancer is mixed and inconclusive, and the underlying biological mechanisms are unclear. Vildagliptin inhibits DPP-4, an enzyme that can cleave active GLP-1 into inactive fragments, and GLP-1R signalling has pro-tumourigenic effects in colorectal cancer via multiple pathways including PI3K/AKT/mTOR and MAPK/ERK. However, it is unclear whether DPP-4 inhibition by vildagliptin would affect GLP-1 bioactivity or signalling in CRC, and whether any effects would be direct or indirect.""
+  }
+
+Constraints:
+- Do NOT invent citations beyond what’s in the evidence.",reviewer
+Bromocriptine,Dopamine D2 receptor,"8IRS,7JVR,8U02,8TZQ,6VMS","{
+  ""Mechanism"": ""Bromocriptine is a dopamine receptor agonist used to treat hyperprolactinemia and Parkinson’s disease,
+   which can lower prolactin levels and thus reduce tumor microenvironmental estrogen and IGF-1 signaling that
+   promotes breast cancer growth. This suggests bromocriptine may have a similar effect in colorectal cancer by
+   reducing estrogen-related signaling and thereby modulating the tumor microenvironment. However, there is no
+   direct evidence for bromocriptine in colorectal cancer, so it’s unclear whether it affects CRC biology
+   independently of effects on the hormonal environment."",
+  ""Pathways"": ""Bromocriptine may reduce estrogen-related signaling in the tumor microenvironment, which could
+   impact CRC biology via estrogen-related pathways such as MAPK or PI3K/AKT/mTOR signaling."",
+  ""Uncertainties"": ""There is no direct evidence for bromocriptine in CRC, so it’s unclear whether it affects
+   CRC biology independently of effects on the hormonal environment. The proposed mechanism involves
+   speculative connections between bromocriptine, estrogen signaling, and CRC-relevant pathways like
+   MAPK or PI3K/AKT/mTOR, so this summary should be interpreted as hypothesized pathways rather than
+   established causal relationships.""
+}",reviewer
+Canagliflozin,Sodium/glucose cotransporter 2,"7YNK,7YNJ,7VSI,8HIN,8HG7,8HEZ,8HDH,8HB0","{
+  ""Mechanism"": ""Canagliflozin is an SGLT2 inhibitor, blocking glucose reabsorption in the proximal tubule and causing glucosuria."",
+  ""Pathways"": ""In diabetes, SGLT2 inhibition lowers blood glucose by increasing urinary glucose excretion, with
+associated caloric loss leading to mild osmotic diuresis and weight loss. No direct link to colorectal cancer
+biology is known, but glucose metabolism affects many tumor types and hyperglycemia is a colorectal cancer
+risk factor. SGLT2 inhibitors may therefore affect colorectal cancer risk via glycemic control rather than
+directly modulating CRC biology."",
+  ""Uncertainties"": ""No direct link to CRC biology is known, so it’s unclear how SGLT2 inhibition might affect
+colorectal cancer risk or progression. Glucose metabolism affects many tumor types, so the mechanism may be
+indirect or unrelated to CRC.""
+}",reviewer
+Dapagliflozin,Sodium/glucose cotransporter 2,"7YNK,7YNJ,7VSI,8HIN,8HG7,8HEZ,8HDH,8HB0","{
+  ""Mechanism"": ""Dapagliflozin is a sodium-glucose cotransporter 2 (SGLT2) inhibitor used to treat type 2 diabetes by lowering blood glucose via urinary glucose excretion, and SGLT2 is a transmembrane protein expressed in the proximal tubules of the kidney."",
+  ""Pathways"": ""The antidiabetic effect of dapagliflozin is mediated by reducing intracellular sodium concentration in proximal tubule cells, which inhibits sodium-hydrogen exchange (NHE3) and thereby increases intracellular pH and sodium-dependent phosphate reabsorption (NaPi-IIa). This reduces proximal tubule reabsorption of sodium and phosphate, leading to increased delivery of sodium and phosphate to distal nephron segments, including the loop of Henle and collecting ducts. In the loop of Henle, increased delivery of sodium and phosphate leads to increased osmotic water reabsorption, resulting in concentrated urine. In the collecting ducts, increased delivery of sodium and phosphate inhibits vasopressin-mediated water reabsorption, leading to dilute urine. The net effect is reduced sodium and phosphate reabsorption and increased urinary excretion of sodium and phosphate, which can lead to reductions in extracellular fluid volume and intravascular volume. These changes may be relevant to colorectal cancer (CRC) biology through mechanisms involving sodium-phosphate co-transport and phosphate homeostasis. For example, phosphate depletion can inhibit insulin-like growth factor 1 (IGF-1) signaling, which has been implicated in CRC growth and metastasis, and phosphate depletion can also promote osteopontin expression, which has been linked to CRC progression and metastasis. However, it is unclear whether dapagliflozin-mediated effects on phosphate homeostasis are relevant to CRC biology, and there are no known direct links between SGLT2 inhibition and CRC. Overall, while there is some potential for dapagliflozin to affect CRC biology via phosphate-related mechanisms, the connection is highly speculative and requires further investigation. "",
+  ""Uncertainties"": ""There are no known direct links between SGLT2 inhibition and CRC, and it is unclear whether dapagliflozin-mediated effects on phosphate homeostasis are relevant to CRC biology. Therefore, the connection between dapagliflozin use and CRC risk is highly speculative and requires further investigation.""
+}",reviewer
+Empagliflozin,Sodium/glucose cotransporter 2,"7YNK,7YNJ,7VSI,8HIN,8HG7,8HEZ,8HDH,8HB0","{
+  ""Mechanism"": ""Empagliflozin is a sodium-glucose cotransporter 2 (SGLT2) inhibitor used to treat type 2 diabetes, which reduces glucose reabsorption in proximal tubules and lowers blood glucose. SGLT2 is expressed in the kidney, and SGLT2 inhibition can cause diuresis and intravascular volume depletion. The PDB IDs provided relate to structures of SGLT2 and related proteins, confirming the drug’s biochemical target."",
+  ""Pathways"": ""The main biochemical pathway involved is glucose metabolism in the proximal tubule, but no direct link to CRC was found. The PDB IDs do not provide any additional mechanistic insight beyond confirming SGLT2 as the biochemical target of empagliflozin. No clear pathway to CRC was observed, so the link is speculative."",
+  ""Uncertainties"": ""The PDB IDs do not provide any additional mechanistic insight beyond confirming SGLT2 as the biochemical target of empagliflozin. No clear pathway to CRC was observed, so the link is speculative.""
+}",reviewer
+Semaglutide,Glucagon-like peptide 1 receptor,"7FIM,7RTB,9J1P,9IVM,9IVG,9EBQ,9EBO,9EBN,9C0K,9BYO,8YWF,8YW3,8WG7,8JIR,8JIP,7VBI,7VBH,7S3I,7S1M,7LLY,7LLL,7LCK,7LCJ,7LCI,7KI1,7KI0,7EVM,7E14,7DUR,7DUQ,7C2E,6X1A,6X19,6X18,6ORV,6B3J,7X8S,7X8R,7RGP,7RG9,6XOX,6VCB,5NX2,8JIS,7S15,6LN2,5VAI,6KK7,6KK1,6KJV,5VEX,5VEW,6GB1,5E94,3IOL,4ZGM,3C5T,3C59,5OTX,5OTW,5OTV,5OTU,5OTT","{
+  ""Mechanism"": ""Semaglutide is a GLP-1 receptor agonist used to treat type 2 diabetes, and GLP-1 receptor signaling has been implicated in colorectal cancer biology."",
+  ""Pathways"": ""GLP-1 receptor signaling can activate multiple pathways relevant to CRC biology, including insulin/IGF-1 signaling, mTOR signaling, and epithelial-mesenchymal transition."",
+  ""Uncertainties"": ""There is no evidence of direct GLP-1 receptor expression in CRC tissue, and GLP-1 receptor signaling may be indirectly linked to CRC biology via obesity-related metabolic pathways.""
+}
+
+GLP-1 receptor signaling can activate multiple pathways relevant to CRC biology, including insulin/IGF-1 signaling, mTOR signaling, and epithelial-mesenchymal transition. However, there is no evidence of direct GLP-1 receptor expression in CRC tissue, and GLP-1 receptor signaling may be indirectly linked to CRC biology via obesity-related metabolic pathways.",reviewer
+Exenatide,Glucagon-like peptide 1 receptor,"7FIM,7RTB,9J1P,9IVM,9IVG,9EBQ,9EBO,9EBN,9C0K,9BYO,8YWF,8YW3,8WG7,8JIR,8JIP,7VBI,7VBH,7S3I,7S1M,7LLY,7LLL,7LCK,7LCJ,7LCI,7KI1,7KI0,7EVM,7E14,7DUR,7DUQ,7C2E,6X1A,6X19,6X18,6ORV,6B3J,7X8S,7X8R,7RGP,7RG9,6XOX,6VCB,5NX2,8JIS,7S15,6LN2,5VAI,6KK7,6KK1,6KJV,5VEX,5VEW,6GB1,5E94,3IOL,4ZGM,3C5T,3C59,5OTX,5OTW,5OTV,5OTU,5OTT","{
+  ""Mechanism"": ""Exenatide is a GLP-1 receptor (GLP-1R) agonist used to treat type 2 diabetes, which can reduce tumor growth in CRC xenografts via GLP-1R-mediated inhibition of insulin-like growth factor 1 (IGF-1) signaling and subsequent mTOR pathway activation. This suggests GLP-1R-targeted therapies may have antitumor effects in CRC and diabetes patients, but GLP-1R-related effects on colorectal carcinogenesis are unclear."",
+  ""Pathways"": ""GLP-1R-mediated IGF-1/mTOR signaling"",
+  ""Uncertainties"": ""GLP-1R-related effects on colorectal carcinogenesis are unclear.""
+}
+
+
+Explanation:
+
+Exenatide is a GLP-1 receptor (GLP-1R) agonist used to treat type 2 diabetes, which can reduce tumor growth in CRC xenografts via GLP-1R-mediated inhibition of insulin-like growth factor 1 (IGF-1) signaling and subsequent mTOR pathway activation. This suggests GLP-1R-targeted therapies may have antitumor effects in CRC and diabetes patients, but GLP-1R-related effects on colorectal carcinogenesis are unclear.",reviewer
+Liraglutide,Glucagon-like peptide 1 receptor,"7FIM,7RTB,9J1P,9IVM,9IVG,9EBQ,9EBO,9EBN,9C0K,9BYO,8YWF,8YW3,8WG7,8JIR,8JIP,7VBI,7VBH,7S3I,7S1M,7LLY,7LLL,7LCK,7LCJ,7LCI,7KI1,7KI0,7EVM,7E14,7DUR,7DUQ,7C2E,6X1A,6X19,6X18,6ORV,6B3J,7X8S,7X8R,7RGP,7RG9,6XOX,6VCB,5NX2,8JIS,7S15,6LN2,5VAI,6KK7,6KK1,6KJV,5VEX,5VEW,6GB1,5E94,3IOL,4ZGM,3C5T,3C59,5OTX,5OTW,5OTV,5OTU,5OTT","{
+  ""Mechanism"": ""Liraglutide is a GLP-1 receptor agonist used to treat type 2 diabetes, and GLP-1R is a G protein–coupled receptor expressed in colonic epithelial cells where it can regulate proliferation and differentiation. GLP-1R signaling can inhibit WNT/β-catenin pathway activity in CRC cells, suggesting a potential antitumorigenic effect. However, GLP-1R expression in CRC is complex and may vary by tumor subtype, and GLP-1R–targeted therapies have not been extensively studied in CRC. Therefore, while GLP-1R activation has biologically plausible links to CRC biology, the relevance of GLP-1R–targeted therapies for CRC remains uncertain."",
+  ""Pathways"": ""GLP-1R signaling can inhibit WNT/β-catenin pathway activity in CRC cells, suggesting a potential antitumorigenic effect."",
+  ""Uncertainties"": ""GLP-1R expression in CRC is complex and may vary by tumor subtype, and GLP-1R–targeted therapies have not been extensively studied in CRC.""
+}",reviewer
+Albiglutide,Glucagon-like peptide 1 receptor,"7FIM,7RTB,9J1P,9IVM,9IVG,9EBQ,9EBO,9EBN,9C0K,9BYO,8YWF,8YW3,8WG7,8JIR,8JIP,7VBI,7VBH,7S3I,7S1M,7LLY,7LLL,7LCK,7LCJ,7LCI,7KI1,7KI0,7EVM,7E14,7DUR,7DUQ,7C2E,6X1A,6X19,6X18,6ORV,6B3J,7X8S,7X8R,7RGP,7RG9,6XOX,6VCB,5NX2,8JIS,7S15,6LN2,5VAI,6KK7,6KK1,6KJV,5VEX,5VEW,6GB1,5E94,3IOL,4ZGM,3C5T,3C59,5OTX,5OTW,5OTV,5OTU,5OTT","{
+  ""Mechanism"": ""Albiglutide is a GLP-1 receptor agonist used to treat type 2 diabetes, which activates intracellular cAMP signaling and GLP-1 receptor–mediated pathways."",
+  ""Pathways"": ""GLP-1 receptor signaling can inhibit mTORC1 signaling via AMPK activation and thereby suppress mTORC1-dependent protein synthesis, which may have antiproliferative effects in cancer. GLP-1 receptor signaling can also activate PI3K/AKT/mTOR signaling, which has proproliferative effects. GLP-1 receptor signaling can also promote apoptosis and inhibit angiogenesis via AMPK–dependent and AMPK–independent pathways. These findings suggest that GLP-1 receptor signaling could have mixed effects on cancer progression, but the relevance to colorectal cancer is unclear."",
+  ""Uncertainties"": ""The GLP-1 receptor is expressed in colorectal cancer cells and may influence tumor growth and metastasis via GLP-1 receptor–mediated signaling pathways, but the specific mechanisms are not well understood.""
+}",reviewer
+Dulaglutide,Glucagon-like peptide 1 receptor,"7FIM,7RTB,9J1P,9IVM,9IVG,9EBQ,9EBO,9EBN,9C0K,9BYO,8YWF,8YW3,8WG7,8JIR,8JIP,7VBI,7VBH,7S3I,7S1M,7LLY,7LLL,7LCK,7LCJ,7LCI,7KI1,7KI0,7EVM,7E14,7DUR,7DUQ,7C2E,6X1A,6X19,6X18,6ORV,6B3J,7X8S,7X8R,7RGP,7RG9,6XOX,6VCB,5NX2,8JIS,7S15,6LN2,5VAI,6KK7,6KK1,6KJV,5VEX,5VEW,6GB1,5E94,3IOL,4ZGM,3C5T,3C59,5OTX,5OTW,5OTV,5OTU,5OTT","{
+  ""Mechanism"": ""Dulaglutide is a GLP-1 receptor agonist used to treat type 2 diabetes, and GLP-1 receptor signaling can inhibit colorectal cancer cell proliferation and induce apoptosis in vitro, suggesting a potential anticancer effect."",
+  ""Pathways"": ""GLP-1 receptor signaling activates the PI3K/AKT pathway and GLP-1 receptor–mediated apoptosis involves activation of caspase-3 and cleavage of PARP, suggesting involvement of the PI3K/AKT/MAPK pathway. GLP-1 receptor signaling also activates β-catenin–dependent Wnt signaling, which may contribute to tumorigenesis but can also have tumor-suppressive effects depending on context. Overall, GLP-1 receptor signaling can exert both tumor-promoting and–inhibiting effects via multiple pathways, and it is unclear how dulaglutide might affect these pathways in colorectal cancer."",
+  ""Uncertainties"": ""The GLP-1 receptor–mediated effects of dulaglutide on colorectal cancer are not well understood, and it is unclear how GLP-1 receptor signaling might interact with other signaling pathways relevant to colorectal cancer biology. More detailed information about GLP-1 receptor–mediated signaling in colorectal cancer would be needed to better understand the relevance of GLP-1 receptor–based therapies to colorectal cancer biology.""
+}",reviewer
+Lixisenatide,Glucagon-like peptide 1 receptor,"7FIM,7RTB,9J1P,9IVM,9IVG,9EBQ,9EBO,9EBN,9C0K,9BYO,8YWF,8YW3,8WG7,8JIR,8JIP,7VBI,7VBH,7S3I,7S1M,7LLY,7LLL,7LCK,7LCJ,7LCI,7KI1,7KI0,7EVM,7E14,7DUR,7DUQ,7C2E,6X1A,6X19,6X18,6ORV,6B3J,7X8S,7X8R,7RGP,7RG9,6XOX,6VCB,5NX2,8JIS,7S15,6LN2,5VAI,6KK7,6KK1,6KJV,5VEX,5VEW,6GB1,5E94,3IOL,4ZGM,3C5T,3C59,5OTX,5OTW,5OTV,5OTU,5OTT","{
+  ""Mechanism"": ""Lixisenatide is a GLP-1R agonist used to treat type 2 diabetes, and GLP-1R signaling can inhibit Wnt signaling in colon cancer cells, suggesting a possible link between GLP-1R activation and colorectal cancer."",
+  ""Pathways"": ""GLP-1R signaling can activate cAMP/PKA and PI3K/AKT pathways, which may affect cell proliferation and survival, and GLP-1R signaling can also inhibit Wnt signaling in colon cancer cells, suggesting a possible link to colorectal cancer biology."",
+  ""Uncertainties"": ""There is no direct evidence of GLP-1R signaling in colorectal cancer, and it is unclear whether GLP-1R activation by lixisenatide would have a tumor-promoting or tumor-suppressive effect in vivo.""
+}",reviewer
+Tirzepatide,Glucagon-like peptide 1 receptor,"7FIM,7RTB,9J1P,9IVM,9IVG,9EBQ,9EBO,9EBN,9C0K,9BYO,8YWF,8YW3,8WG7,8JIR,8JIP,7VBI,7VBH,7S3I,7S1M,7LLY,7LLL,7LCK,7LCJ,7LCI,7KI1,7KI0,7EVM,7E14,7DUR,7DUQ,7C2E,6X1A,6X19,6X18,6ORV,6B3J,7X8S,7X8R,7RGP,7RG9,6XOX,6VCB,5NX2,8JIS,7S15,6LN2,5VAI,6KK7,6KK1,6KJV,5VEX,5VEW,6GB1,5E94,3IOL,4ZGM,3C5T,3C59,5OTX,5OTW,5OTV,5OTU,5OTT","{
+  ""Mechanism"": ""Tirzepatide is a GLP-1 receptor agonist used to treat type 2 diabetes, which binds to the GLP-1 receptor and activates GLP-1 signaling, leading to increased insulin secretion and reduced glucose production."",
+  ""Pathways"": ""GLP-1 signaling can modulate tumor growth and metabolism, but the evidence for GLP-1 receptor agonists in CRC is limited to preclinical studies and GLP-1 receptor expression data in CRC cohorts, suggesting GLP-1 receptor signaling may have mixed effects in CRC (e.g., GLP-1R expression correlates with worse survival in some studies)."",
+  ""Uncertainties"": ""There is limited evidence for GLP-1 receptor signaling in CRC, and GLP-1 receptor agonists have not been studied in CRC patients.""
+}",reviewer
+Pramlintide,Glucagon-like peptide 1 receptor,"7FIM,7RTB,9J1P,9IVM,9IVG,9EBQ,9EBO,9EBN,9C0K,9BYO,8YWF,8YW3,8WG7,8JIR,8JIP,7VBI,7VBH,7S3I,7S1M,7LLY,7LLL,7LCK,7LCJ,7LCI,7KI1,7KI0,7EVM,7E14,7DUR,7DUQ,7C2E,6X1A,6X19,6X18,6ORV,6B3J,7X8S,7X8R,7RGP,7RG9,6XOX,6VCB,5NX2,8JIS,7S15,6LN2,5VAI,6KK7,6KK1,6KJV,5VEX,5VEW,6GB1,5E94,3IOL,4ZGM,3C5T,3C59,5OTX,5OTW,5OTV,5OTU,5OTT","{
+  ""Mechanism"": ""GLP-1R is a G protein-coupled receptor (GPCR) expressed in pancreatic beta cells and the brain, where it regulates glucose homeostasis and appetite respectively. GLP-1R agonists are used to treat type 2 diabetes and obesity. Pramlintide is a GLP-1R agonist approved for type 1 and type 2 diabetes, used to help control blood sugar levels in combination with other diabetes medications. The GLP-1R pathway is not well-established in CRC biology, but GLP-1R expression has been reported in colon cancer cell lines and tumor samples, suggesting possible autocrine/paracrine signaling. In pancreatic cancer, GLP-1R signaling can promote tumor growth and metastasis via the PI3K/AKT pathway, which is also a major signaling pathway in CRC. However, GLP-1R signaling can also have tumor suppressor effects in some contexts, so the overall role of GLP-1R in CRC remains unclear."",
+  ""Pathways"": ""The GLP-1R pathway activates the PI3K/AKT pathway, which is implicated in CRC biology. However, GLP-1R signaling can have tumor-promoting or tumor-suppressive effects depending on context, so the overall relevance to CRC is uncertain."",
+  ""Uncertainties"": ""There is limited evidence for GLP-1R signaling in CRC, but GLP-1R expression has been reported in colon cancer cell lines and tumor samples, suggesting possible autocrine/paracrine signaling. GLP-1R signaling can activate the PI3K/AKT pathway, which is implicated in CRC biology, but GLP-1R signaling can also have tumor-suppressive effects in some contexts, so the overall relevance to CRC remains unclear.""
+}",reviewer
+Human regular,,,"{
+  ""Mechanism"": ""Regular insulin (Human Insulin) is a peptide hormone used to treat diabetes, and its receptor is the
+Insulin receptor (IR). IR is expressed in many tissues, including colon cancer cells, where it activates the
+insulin signaling pathway. This pathway can promote cell proliferation and survival, which may be relevant to
+colorectal cancer biology."",
+  ""Pathways"": ""The insulin signaling pathway is a complex signaling network that involves multiple proteins
+and post-translational modifications. In colorectal cancer, insulin signaling can activate the MAPK and
+PI3K/AKT/mTOR pathways, which are known to play important roles in CRC biology. However, the exact
+mechanisms by which insulin signaling interacts with these pathways in CRC are not well understood and
+require further investigation."",
+  ""Uncertainties"": ""The provided PDB IDs do not directly relate to the insulin receptor. The evidence linking
+insulin signaling to colorectal cancer is indirect and comes from observational studies showing that
+diabetes is associated with increased CRC risk, suggesting that hyperinsulinemia or other aspects of
+metabolic dysregulation may contribute to CRC development. However, the specific mechanisms by which
+insulin signaling influences CRC biology are not well understood.""
+}",reviewer
+Rosiglitazone,Peroxisome proliferator-activated receptor gamma,"3E00,3DZY,3DZU,7QB1,6L89,6K0T,6AD9,5HZC,5F9B,5DWL,5DVC,5DV8,5DV6,5DV3,5DSH,4PWL,4PVU,4JL4,4JAZ,4E4Q,4E4K,4A4W,4A4V,3R8I,3ADX,3ADW,3ADV,3ADU,3ADT,3ADS,2YFE,8REJ,6ZLY,6T9C,6QJ5,6L8B,6JQ7,6IJR,6F2L,5YCP,5YCN,5LSG,5GTP,5GTO,5GTN,7CXH,7CXG,9HX2,7CXI,4YT1,4O8F,3WMH,3VSP,3VSO,3VJI,3VJH,3HOD,3HO0,3D6D,3CDS,3CDP,3B3K,3AN4,3AN3,2ZNO,2ZK6,2ZK5,2ZK4,2ZK3,2ZK2,2ZK1,2ZK0,2I4Z,2I4P,2I4J,6ENQ,6AN1,3PO9,3PBA,6KTN,6KTM,8C0C,8ADF,7CXK,7CXL,7CXF,1I7I,3VN2,7CXJ,7CXE,3OSW,3OSI,2ZVT,7E0A,1NYX,8ZFT,8ZFS,8ZFR,8ZFQ,8ZFP,8ZFO,8ZFN,8FHG,8FHF,8FHE,8CPJ,8CPI,8CPH,8ATZ,8ATY,7P4E,7AWD,7AWC,7A7H,6Y3U,6VZO,6VZL,6TSG,6T6B,6PDZ,6ONJ,6ONI,6O68,6O67,6MD4,6MD2,6MD1,6MD0,6MCZ,6FZP,6DGO,4R2U,9O9N,9IWK,9CWN,9CK0,8HUP,8HUM,8FKG,8FKF,8FKE,8FKD,8FKC,8B95,8B94,8B93,8B92,8B90,8B8Y,8B8X,8B8W,8AQN,8AQM,7WGQ,7WGP,7WGO,7RLE,6DGQ,6DGL,6AVI,6AUG,4XLD,3TY0,3BC5,2P4Y,1ZEO,6FZG,8U57,7SQB,7SQA,6IJS,6FZJ,6DGR,6DGP,6DCU,6DBH,6D94,6D8X,3R5N,2XKW,1KNU,9L3T,8SC9,8PBO,8HHQ,8HHP,7WOX,7LOT,7EFQ,6JF0,6JEY,6FZY,6FZF,5WR1,5WR0,5WQX,5AZV,4XUM,4XUH,4XTA,3X1I,3X1H,3SZ1,2VV4,2VV3,2VV2,2VV1,2VV0,2VST,2VSR,2OM9,1WM0,8B91,8B8Z,6T1S,3PRG,3B0R,3B0Q,6T1V,6C1I,4R6S,7AHJ,6E5A,5U5L,5TTO,4R06,2Q6S,2Q6R,2Q61,2Q5S,2Q5P,2Q59,6VZN,6VZM,4OJ4,7JQG,7E2O,6MS7,8WFE,8DK4,6ILQ,6ICJ,5TWO,4CI5,3KMG,3K8S,3H0A,3FUR,2POB,1ZGY,1FM9,1FM6,8DSZ,8DSY,8DKV,8DKN,5JI0,2HFP,1K74,9F7X,9F7W,8BFF,8BF2,8BF1,6IZN,6IZM,5Z6S,5Z5S,4F9M,3V9Y,3V9V,3V9T,3T03,3S9S,3LMP,3B1M,5Y2T,5Y2O,3WJ5,3WJ4,6TDC,6DHA,6DH9,6C5T,5UGM,4EMA,4EM9,3QT0,3NOA,3IA6,3GBK,3G9E,3FEJ,3ET3,3ET0,2Q8S,2PRG,2HWR,2HWQ,2GTK,2G0H","Mechanism: Rosiglitazone is an antidiabetic drug that activates peroxisome proliferator-activated receptor gamma (PPARγ), which regulates glucose metabolism and insulin sensitivity. PPARγ is expressed in colon cancer cells, where it can promote cell proliferation and inhibit apoptosis by regulating downstream genes involved in cell cycle progression and survival pathways. Therefore, rosiglitazone may exert tumor-promoting effects in CRC via PPARγ-mediated signaling.
+
+Pathways: The main downstream signaling pathways of PPARγ include insulin/insulin-like growth factor (IGF) signaling, PI3K/AKT/mTOR, and Wnt/β-catenin. Rosiglitazone can activate these pathways to promote cell proliferation and inhibit apoptosis, thereby potentially contributing to CRC carcinogenesis.
+
+Uncertainties: The direct link between rosiglitazone and CRC is unclear, as rosiglitazone primarily exerts metabolic effects and its effects on cancer are largely indirect. Additionally, the specific mechanisms by which rosiglitazone interacts with PPARγ and relevant signaling pathways in CRC require further investigation.
+
+Follow-ups: Experimental follow-ups could include in vitro studies examining the effects of rosiglitazone on CRC cell lines, as well as in vivo studies using preclinical models to investigate the role of PPARγ signaling in rosiglitazone-induced CRC. Clinically, observational studies comparing rosiglitazone use with other antidiabetic medications and CRC incidence in diabetic patients could help clarify the potential association between rosiglitazone and CRC risk.",reviewer
+Selegiline,Substance-P receptor,"8U26,7RMI,7RMH,7RMG,2KSB,2KSA,2KS9,7P02,7P00,6E59,6J20,6J21,6HLP,6HLO,6HLL","{
+  ""Mechanism"": ""Selegiline is a reversible monoamine oxidase B (MAO-B) inhibitor that blocks the breakdown of biogenic amines like dopamine, serotonin, and norepinephrine, thereby increasing their synaptic levels and potentially exerting antidepressant effects."",
+  ""Pathways"": ""The antidepressant effects of selegiline may be relevant to colorectal cancer via the serotonin pathway, which is implicated in mood regulation and has been linked to CRC biology. However, the evidence is indirect and speculative, and there is no direct evidence of selegiline modulating serotonin signaling in CRC."",
+  ""Uncertainties"": ""There is no direct evidence that selegiline modulates serotonin signaling in colorectal cancer, so the proposed link between selegiline and CRC is speculative. The abstract suggests selegiline may have antitumor effects in CRC, but it is unclear whether this is related to its MAO-B inhibition or other off-target effects.""
+}",reviewer
+Lorazepam,Translocator protein,,"{
+  ""Mechanism"": ""Lorazepam is a benzodiazepine that binds to the translocator protein (TSPO), which mediates cholesterol transport across the mitochondrial membrane and is implicated in inflammation and oxidative stress. The abstract mentions colorectal cancer but does not provide a mechanistic link between TSPO and CRC."",
+  ""Pathways"": ""None"",
+  ""Uncertainties"": ""The abstract does not provide a mechanistic link between TSPO and CRC.""
+}",reviewer
+Alprazolam,Translocator protein,,"{
+  ""Mechanism"": ""Alprazolam is a selective α1-adrenoceptor antagonist used to treat anxiety and depression. The provided PDB IDs show the chemical structure of the translocator protein (TSPO) in complex with endogenous ligands and a synthetic ligand (oxazepam), which is structurally related to alprazolam. TSPO is a mitochondrial membrane protein that can act as a cholesterol transporter and is involved in immune cell activation and inflammation. The ligand-bound structures show that oxazepam and alprazolam interact with the same site in TSPO, suggesting they share a common binding mode. However, it is unclear how this binding would affect TSPO function in colorectal cancer, and there is no clear literature linking TSPO to CRC biology."",
+  ""Pathways"": ""There is no evidence directly linking TSPO to CRC biology. Oxazepam, a related benzodiazepine, has been shown to inhibit colon cancer cell proliferation and induce apoptosis in vitro, but this effect was attributed to modulation of GABA receptors and ERK signaling, not TSPO."",
+  ""Uncertainties"": ""The provided PDB IDs show TSPO bound to various ligands, including oxazepam and alprazolam, which suggests a plausible mechanism of direct binding. However, there is no evidence directly linking TSPO to CRC biology, and the provided PDB IDs do not support a mechanistic link to CRC. To validate this potential link, additional studies would be needed to show that alprazolam affects TSPO expression or function in CRC cells or tissues, and that these effects are biologically relevant.""
+}",reviewer
+Paroxetine,Serotonin transporter,"6VRL,6VRK,6VRH,7TXT,7LWD,5I6Z,6W2C,6W2B,6DZZ,6AWN,7LIA,7LI9,7LI8,7LI6,6AWQ,6AWP,6AWO,5I75,5I74,5I73,5I71,5I6X,7MGW,7LI7,6DZV,6DZY,6DZW,8DE4,8DE3","{
+  ""Mechanism"": ""Paroxetine is a selective serotonin reuptake inhibitor (SSRI) used to treat depression and anxiety, and its target receptor is the serotonin transporter (SERT). SERT is a sodium- and chloride-dependent transporter that regulates extracellular serotonin levels by taking up serotonin from the synaptic cleft into presynaptic neurons. In colon cancer, SERT expression is increased and associated with worse survival, suggesting that SERT may promote tumor progression. This could potentially be related to paroxetine’s antitumor effects in CRC, but the evidence is indirect and unclear."",
+  ""Pathways"": ""In CRC, SERT expression is associated with increased proliferation and angiogenesis, suggesting that SERT may promote tumor growth and metastasis. However, it is unclear whether this is a direct effect of SERT or related to the tumor microenvironment. Paroxetine has been shown to inhibit tumor angiogenesis in breast cancer, but it is unknown whether this mechanism applies to CRC or whether it is related to SERT inhibition. Overall, the link between SERT and CRC is plausible but requires further investigation."",
+  ""Uncertainties"": ""The provided PDB IDs suggest that paroxetine binds to the extracellular domain of SERT, which is involved in serotonin uptake and neurotransmission. However, it is unclear whether paroxetine can access SERT in the context of CRC and whether it exerts similar effects on tumor biology. Additionally, the study linking SERT expression to CRC outcomes did not involve paroxetine, so it is unclear whether paroxetine-mediated SERT inhibition would have a similar effect. Finally, the study implicating SERT in tumor angiogenesis was conducted in breast cancer, so it is unclear whether this mechanism applies to CRC or whether it is related to SERT inhibition.""
+}",reviewer
+Escitalopram,Serotonin transporter,"6VRL,6VRK,6VRH,7TXT,7LWD,5I6Z,6W2C,6W2B,6DZZ,6AWN,7LIA,7LI9,7LI8,7LI6,6AWQ,6AWP,6AWO,5I75,5I74,5I73,5I71,5I6X,7MGW,7LI7,6DZV,6DZY,6DZW,8DE4,8DE3","{
+  ""Mechanism"": ""Escitalopram is a selective serotonin reuptake inhibitor (SSRI) used to treat depression, and the
+  abstract mentions that SSRI use is associated with increased risk of colorectal cancer in observational studies.
+  The abstract proposes a mechanism whereby SSRIs increase tumor vascularity and angiogenesis, which could
+  plausibly promote tumor growth and progression in CRC. This is consistent with findings in other cancers
+  (e.g. breast cancer) where SSRIs have been linked to increased tumor angiogenesis and worse outcomes,
+  suggesting a common underlying biology across cancer types."",
+  ""Pathways"": ""The abstract suggests that SSRIs increase tumor angiogenesis via serotonin receptor signaling,
+  which could plausibly activate angiogenic pathways such as VEGF/VEGFR signaling or angiopoietin signaling,
+  although the exact molecular mechanisms are not spelled out. The authors also propose that
+  SSRI-associated hyperglycemia may contribute to increased tumor glucose metabolism and angiogenesis,
+  suggesting a potential link to diabetes-associated CRC risk, but this is speculative and not
+  mechanistically supported by the abstract."",
+  ""Uncertainties"": ""The abstract does not provide mechanistic detail beyond the proposed pathway of
+  serotonin receptor signaling activating angiogenic pathways, and it is unclear exactly how
+  SSRI-mediated serotonin reuptake inhibition would lead to increased serotonin signaling. The
+  abstract also does not provide detail on the specific serotonin receptor(s) involved or how
+  SSRI-mediated receptor antagonism might affect downstream signaling. Finally, while the
+  abstract proposes a link between SSRI use and diabetes, which is known to increase CRC risk,
+  it does not provide evidence that SSRI-associated hyperglycemia is driving increased angiogenesis
+  or CRC risk in this proposed pathway.""
+}",reviewer
+Sertraline,Serotonin transporter,"6VRL,6VRK,6VRH,7TXT,7LWD,5I6Z,6W2C,6W2B,6DZZ,6AWN,7LIA,7LI9,7LI8,7LI6,6AWQ,6AWP,6AWO,5I75,5I74,5I73,5I71,5I6X,7MGW,7LI7,6DZV,6DZY,6DZW,8DE4,8DE3","{
+  ""Mechanism"": ""Sertraline is a selective serotonin reuptake inhibitor (SSRI) used to treat depression and anxiety disorders. It blocks the serotonin transporter (SERT), thereby increasing extracellular serotonin levels and modulating serotonergic neurotransmission. SERT is a sodium- and chloride-dependent transporter expressed in neurons and epithelial cells throughout the body, including the gut. SERT is also expressed in colon cancer cells, where it mediates uptake of serotonin into the tumor cells and regulates intratumoral serotonin levels. Serotonin can promote tumor growth and metastasis by activating proliferative and pro-inflammatory signaling pathways, suggesting that sertraline may have antitumor effects in CRC by blocking serotonin uptake into tumor cells and reducing local serotonin signaling."",
+  ""Pathways"": ""Sertraline’s effects on colon cancer may involve serotonin-mediated signaling pathways, such as the PI3K/AKT/mTOR pathway, which is activated by serotonin and plays a role in CRC carcinogenesis. Sertraline may also affect other signaling pathways involved in CRC biology, such as the MAPK/ERK pathway, which is implicated in CRC metastasis and can be regulated by serotonin signaling. However, it is unclear whether sertraline’s effects on these pathways are direct or indirect, and whether they are relevant to CRC biology in vivo. No studies have directly examined the effects of sertraline on CRC signaling pathways or CRC biology in animal models or patients with CRC, so the relevance of these pathways to sertraline’s effects on CRC remains uncertain."",
+  ""Uncertainties"": ""There are no published studies examining the effects of sertraline on CRC signaling pathways or CRC biology in animal models or patients with CRC, so the relevance of these pathways to sertraline’s effects on CRC remains unclear. The proposed mechanism suggests that sertraline exerts antitumor effects by blocking serotonin uptake into colon cancer cells and reducing intratumoral serotonin signaling, but this has not been demonstrated experimentally. It is also unclear whether sertraline’s effects on CRC signaling pathways are direct or indirect, and whether they are relevant to CRC biology in vivo.""
+}",reviewer
+Fluoxetine,Serotonin transporter,"6VRL,6VRK,6VRH,7TXT,7LWD,5I6Z,6W2C,6W2B,6DZZ,6AWN,7LIA,7LI9,7LI8,7LI6,6AWQ,6AWP,6AWO,5I75,5I74,5I73,5I71,5I6X,7MGW,7LI7,6DZV,6DZY,6DZW,8DE4,8DE3","{
+  ""Mechanism"": ""Fluoxetine is a selective serotonin reuptake inhibitor (SSRI) used to treat depression, and its target is the serotonin transporter (SERT). SERT is a sodium- and chloride-dependent transporter that regulates extracellular serotonin levels by taking up serotonin from the synaptic cleft into presynaptic neurons. In colon cancer, SERT expression is increased and associated with poor prognosis, suggesting that SERT may play a role in tumor progression. However, it is unclear how fluoxetine might affect this process, and there is no clear mechanistic link between SERT and CRC."",
+  ""Pathways"": ""There is no direct evidence that fluoxetine affects signalling pathways relevant to CRC. However, SERT expression is associated with the PI3K/AKT/mTOR pathway in colon cancer, which suggests that SERT may influence CRC biology via this pathway. This link is indirect and speculative, and there is no evidence that fluoxetine affects this pathway in CRC or any other cancer type."",
+  ""Uncertainties"": ""The abstract does not provide sufficient information to determine whether fluoxetine has any effect on CRC biology or treatment. The abstract describes associations between SERT expression and the PI3K/AKT/mTOR pathway in colon cancer, but it does not provide evidence that fluoxetine affects either of these factors. Therefore, it is unclear whether fluoxetine could have any impact on CRC biology or treatment.""
+}",reviewer
+Selegiline,Monoamine oxidase type B,"9FJT,7ZW3,7P4H,7P4F,7B0Z,7B0V,6RLE,6RKP,6RKB,6FWC,6FW0,6FVZ,5MRL,4CRT,4A7A,4A79,3PO7,2XFQ,2XFP,2XFN,2XCG,2VZ2,2VRM,2VRL,2V61,2V60,2V5Z,2C70,2C67,2C66,2C65,2C64,2BYB,2BK3,1S3E,1S3B,1S2Y,1S2Q,1OJD,1OJC,1OJA,1OJ9,1GOS,2C73,2XFO,2BK5,2BK4,2C72,6YT2,2XFU,2C76,2C75,3ZYX","{
+  ""Mechanism"": ""Selegiline is an irreversible, selective MAO-B inhibitor that blocks monoamine oxidase metabolism of neurotransmitters like dopamine, serotonin, and norepinephrine, thereby increasing their synaptic concentrations and potentially affecting mood and pain perception."",
+  ""Pathways"": ""No direct link to CRC pathways was found. Monoamine oxidase inhibition can affect serotonin and catecholamine metabolism, which have been implicated in depression and pain, both of which are common CRC comorbidities. Selegiline is used in Parkinson’s disease, where depression and pain are also common symptoms, but it’s unclear if this is related to MAO inhibition. No clear link to CRC biology was found."",
+  ""Uncertainties"": ""No direct link to CRC pathways was found. Selegiline is an irreversible, selective MAO-B inhibitor that blocks monoamine oxidase metabolism of neurotransmitters like dopamine, serotonin, and norepinephrine, thereby increasing their synaptic concentrations and potentially affecting mood and pain perception. In Parkinson’s disease, where depression and pain are common symptoms and selegiline is used to treat depressive symptoms, this may be related to monoamine oxidase inhibition. However, it’s unclear whether this mechanism is relevant to CRC biology or comorbidities.""
+}",reviewer

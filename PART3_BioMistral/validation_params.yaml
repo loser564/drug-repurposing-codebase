@@ -30,7 +30,7 @@ generation:
   temperature: 0.2
   top_p: 0.9
   top_k: 50
-  max_new_tokens: 512
+  max_new_tokens: 2048 ## max of biomistral-7b
   do_sample: true
   repetition_penalty: 1.05
   stop_strings: []           # optional custom stop tokens
