@@ -1,0 +1,77 @@
+input_file_paths:
+  basic_realworld_test: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_basic.csv"
+  onco_realworld_test: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_onco.csv"
+  reviewer_realworld_test: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_reviewer.csv"
+
+output_file_paths:
+  chatgpt_ratings_output_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/CHATGPT_RATINGS"
+  deepseek_ratings_output_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/DEEPSEEK_RATINGS"
+
+  
+prompts_dir:
+  chatgpt_prompt_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/CHATGPT_PROMPTS"
+  deepseek_prompt_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/DEEPSEEK_PROMPTS"
+
+rubrics:
+
+  accurate: |
+    DESCRIPTION: Accuracy assesses whether the model’s summary is factually correct, free of fabrications, and aligned with the correct scientific context (e.g., the correct drug, mechanism, pathway, or disease).
+    A response is considered accurate if:
+      • All claims are consistent with established scientific knowledge at the time of evaluation.
+      • No fabricated data, mechanisms, or entities are introduced.
+      • Mechanisms/actions are applied to the correct drug and disease context.
+
+    NOTE: Fabrication — introducing information that does not exist in reality.
+      Examples:
+        - Claiming a drug has a molecular target not documented in any literature.
+        - Inventing trial results, dosages, or molecular structures.
+
+    NOTE: Falsification — presenting real facts incorrectly.
+      Examples:
+        - Calling metformin a sulfonylurea.
+        - Claiming insulin suppresses tumor growth despite evidence to the contrary.
+
+    NOTE: Misalignment — factually correct mechanisms applied to the wrong drug/disease/pathway.
+      Examples:
+        - Describing EGFR inhibitor mechanisms but applying them to a VEGF inhibitor.
+        - Using PD-1 signalling explanations for CTLA-4 therapy.
+
+    NOTE: Competing hypotheses are acceptable and not fabrications.
+    NOTE: If a drug lacks a known structure/PDB: stating “the structure is not well-characterized” is valid.
+
+    GRADES:
+      1 = Multiple fabrications or falsifications; core scientific claims incorrect or invented.
+      2 = At least one clear falsification OR multiple fabricated elements; major distortion.
+      3 = Mechanisms/pathways correct but applied to the wrong drug; no fabrications.
+      4 = Factually correct statements, but at least one applied to the wrong disease context.
+      5 = Fully accurate; no fabrications/falsifications; mechanisms align with drug + disease.
+
+  organized: |
+    DESCRIPTION: The summary is structured using clear, explicit groupings that guide the reader through mechanisms, pathways, and uncertainties. Groupings must be complete, meaningful, and correctly labelled.
+
+    GRADES:
+      1 = No grouping present; structure absent.
+      2 = Missing or empty grouping, OR assertions outside of any grouping.
+      3 = All groupings present and non-empty, but some assertions placed incorrectly.
+      4 = All assertions in correct grouping, but groupings not in required order.
+      5 = All assertions correctly grouped AND presented in correct order (Mechanisms → Pathways → Uncertainties).
+
+  comprehensible: |
+    DESCRIPTION: Clarity and readability. Uses straightforward, consistent language that clinicians can understand without unnecessary jargon.
+
+    GRADES:
+      1 = Highly complex or inconsistent language; difficult for clinicians.
+      2 = Any instance of unnecessary complexity that hinders clarity.
+      3 = Understandable but could be simpler; some unjustified technical terms.
+      4 = Clear overall with only minor complexity.
+      5 = Fully clear, concise, clinician-friendly language.
+
+  succinct: |
+    DESCRIPTION: Economy of language. The summary is brief and free of redundancy.
+
+    GRADES:
+      1 = Very wordy; redundant throughout.
+      2 = More than one assertion contains semantic redundancy.
+      3 = At least one assertion redundant.
+      4 = No syntactic redundancy, though one assertion could be shorter.
+      5 = As concise as possible with zero redundancy.
