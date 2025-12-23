@@ -1,31 +1,31 @@
-# input_file_paths:
-#   basic_realworld_test: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_basic.csv"
-#   onco_realworld_test: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_onco.csv"
-#   reviewer_realworld_test: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_reviewer.csv"
-
-# output_file_paths:
-#   chatgpt_ratings_output_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/CHATGPT_RATINGS"
-#   deepseek_ratings_output_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/DEEPSEEK_RATINGS"
-
-  
-# prompts_dir:
-#   chatgpt_prompt_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/CHATGPT_PROMPTS"
-#   deepseek_prompt_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/DEEPSEEK_PROMPTS"
-
-
 input_file_paths:
-  basic_realworld_test: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_basic.csv"
-  onco_realworld_test: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_onco.csv"
-  reviewer_realworld_test: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_reviewer.csv"
+  basic_realworld_test: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_basic.csv"
+  onco_realworld_test: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_onco.csv"
+  reviewer_realworld_test: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_reviewer.csv"
 
 output_file_paths:
-  chatgpt_ratings_output_dir: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/CHATGPT_RATINGS"
-  deepseek_ratings_output_dir: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/DEEPSEEK_RATINGS"
+  chatgpt_ratings_output_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/CHATGPT_RATINGS"
+  deepseek_ratings_output_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/DEEPSEEK_RATINGS"
 
   
 prompts_dir:
-  chatgpt_prompt_dir: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/CHATGPT_PROMPTS"
-  deepseek_prompt_dir: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/DEEPSEEK_PROMPTS"
+  chatgpt_prompt_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/CHATGPT_PROMPTS"
+  deepseek_prompt_dir: "C:/Users/Admin/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/DEEPSEEK_PROMPTS"
+
+
+# input_file_paths:
+#   basic_realworld_test: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_basic.csv"
+#   onco_realworld_test: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_onco.csv"
+#   reviewer_realworld_test: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/LLM_OUTPUT/biomistral_realworldtest_reviewer.csv"
+
+# output_file_paths:
+#   chatgpt_ratings_output_dir: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/CHATGPT_RATINGS"
+#   deepseek_ratings_output_dir: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/DEEPSEEK_RATINGS"
+
+  
+# prompts_dir:
+#   chatgpt_prompt_dir: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/CHATGPT_PROMPTS"
+#   deepseek_prompt_dir: "C:/Users/alici/OneDrive - Nanyang Technological University/FYP_DATA/EVALUATION/DEEPSEEK_PROMPTS"
 
 rubrics:
 
