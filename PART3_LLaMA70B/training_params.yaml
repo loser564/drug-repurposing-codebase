@@ -8,9 +8,9 @@ model:
 
   # 36GB VRAM target + CPU offload headroom
   max_memory:
-    "0": "36GiB"
-    "cpu": "96GiB"
-  offload_folder: "offload_cache"
+    "0": "27GiB"
+    "cpu": "30GiB"
+  offload_folder: "~/hf_offload"
   trust_remote_code: true
 
 bnb:
@@ -28,7 +28,7 @@ data:
   seed: 42
 
   # 70B on 36GB: start conservative. If stable, try 1536 or 2048.
-  max_seq_length: 1024
+  max_seq_length: 512
   packing: false
 
 lora:
@@ -61,7 +61,7 @@ train:
   scheduler: "constant"
   warmup_ratio: 0.03
   weight_decay: 0.001
-  optim: "paged_adamw_32bit"
+  optim: "paged_adamw_8bit"
 
   evaluation_strategy: "no"
   eval_steps: 200

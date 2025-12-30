@@ -1,0 +1,179 @@
+prompts:
+  use_chat_format: true
+  system: "Use simple, precise language"
+
+  train_user_template: |
+    (Triple quotes indicate emphasis, and XML tags serve as delimiters.)
+    You will receive a drug name, its target receptor(s), associated PDB IDs,
+    and literature evidence summarizing its effects on colorectal cancer.
+
+    """Please follow the steps below"""
+    1. Read the literature summary and relate it to the chemical structure provided in the PDB IDs.
+    2. Explain how the drug interacts with the target receptors and relevant pathways of colorectal cancer.
+    3. Summarize the findings in the required structured JSON format.
+
+    <Output format>
+    {{
+      "Mechanism": "<Describe how the drug exerts its biochemical or molecular effects>",
+      "Pathways": "<Summarize the affected signalling or metabolic pathways>",
+      "Evidence": "<Summarize supporting findings from the literature>",
+      "Uncertainties": "<List any conflicting or unclear points>"
+    }}
+    </Output format>
+
+    <Input>
+    Drug: {Drug}
+    Receptor: {Receptor}
+    PDB IDs (if any): {PDB_ID}
+    Literature Evidence (verbatim snippets may include PMIDs):
+    {report}
+    </Input>
+
+    Constraints:
+    - Do NOT invent citations beyond what’s in the evidence.
+
+  val_user_template: |
+    (Triple quotes indicate emphasis, and XML tags serve as delimiters.)
+    You will receive a drug name, its target receptor(s), and associated PDB IDs related to colorectal cancer.
+    Using your prior biomedical knowledge (learned during fine-tuning), explain how the drug interacts with the
+    target receptors and signalling pathways.
+
+    """Please follow the steps below"""
+    1. Summarize succinctly the receptor’s structural or functional characteristics based on the given PDB IDs.
+    2. Explain how the drug binds or modulates these receptors.
+    3. Describe the downstream signalling pathways involved in colorectal cancer.
+    4. Identify any uncertainties or knowledge gaps.
+
+    <Output format>
+    {{
+      "Mechanism": "<Explain the key molecular interaction mechanism>",
+      "Pathways": "<Summarize relevant signalling pathways>",
+      "Uncertainties": "<Note unclear or conflicting mechanisms>"
+    }}
+    </Output format>
+
+    <Input>
+    Drug: {Drug}
+    Receptor: {Receptor}
+    PDB IDs (if any): {PDB_ID}
+    Evidence: Use only prior knowledge learned during fine-tuning; do not invent citations.
+    </Input>
+
+    Constraints:
+    - If unclear, explicitly state the uncertainty.
+
+  test_user_template: |
+    (Triple quotes indicate emphasis, and XML tags serve as delimiters.)
+    You will receive a drug name, its target receptor(s), and associated PDB IDs related to colorectal cancer.
+    Using your prior biomedical knowledge (learned during fine-tuning), explain how the drug interacts with the
+    target receptors and signalling pathways.
+
+    If no relation to colorectal cancer, print NO RELATION.
+
+    """Please follow the steps below"""
+    1. Summarize succinctly the receptor’s structural or functional characteristics based on the given PDB IDs.
+    2. Explain how the drug binds or modulates these receptors.
+    3. Describe the downstream signalling pathways involved in colorectal cancer.
+    4. Identify any uncertainties or knowledge gaps.
+
+    <Output format>
+    {{
+      "Mechanism": "<Explain the key molecular interaction mechanism>",
+      "Pathways": "<Summarize relevant signalling pathways>",
+      "Uncertainties": "<Note unclear or conflicting mechanisms>"
+    }}
+    </Output format>
+
+    <Input>
+    Drug: {Drug}
+    Receptor: {Receptor}
+    PDB IDs (if any): {PDB_ID}
+    Evidence: Use only prior knowledge learned during fine-tuning; do not invent citations.
+    </Input>
+
+    Constraints:
+    - If unclear, explicitly state the uncertainty.
+
+  test_user_template_oncologist: |
+    (Triple quotes indicate emphasis, and XML tags serve as delimiters.)
+    You are a board-certified medical oncologist specialising in colorectal cancer.
+    You will receive a drug name, its target receptor(s), and associated PDB IDs.
+
+    Using only your prior biomedical knowledge learned during fine-tuning:
+    - Explain how the drug interacts with the target receptor(s).
+    - Emphasise mechanisms that are relevant to colorectal cancer biology and potential clinical impact
+      (e.g., effects on tumour proliferation, apoptosis, invasion, metastasis, or response to standard therapies).
+
+    If there is no mechanistically plausible relation to colorectal cancer, print NO RELATION.
+
+    """Please follow the steps below"""
+    1. Summarise succinctly the receptor’s structural or functional characteristics based on the given PDB IDs.
+    2. Explain how the drug binds or modulates these receptors and how this might affect colorectal cancer cells
+       (e.g. via EGFR/MAPK, PI3K/AKT/mTOR, Wnt/β-catenin, TGF-β, angiogenesis, tumour metabolism, immune modulation).
+    3. Describe the downstream signalling pathways involved in colorectal cancer and any potential impact on
+       current standard-of-care regimens.
+    4. Identify uncertainties, including where evidence is weak, indirect, or speculative.
+
+    <Output format>
+    {{
+      "Mechanism": "<Explain the key molecular interaction mechanism with clinical relevance>",
+      "Pathways": "<Summarise relevant signalling pathways in colorectal cancer>",
+      "Uncertainties": "<Note unclear, indirect, or conflicting mechanisms>"
+    }}
+    </Output format>
+
+    <Input>
+    Drug: {Drug}
+    Receptor: {Receptor}
+    PDB IDs (if any): {PDB_ID}
+    Evidence: Use only prior knowledge learned during fine-tuning; do not invent citations.
+    </Input>
+
+    Constraints:
+    - Explicitly highlight how (or whether) the mechanism could influence colorectal cancer outcomes.
+    - If unclear, explicitly state the uncertainty.
+
+  test_user_template_reviewer: |
+    (Triple quotes indicate emphasis, and XML tags serve as delimiters.)
+    You are a translational oncology researcher critically reviewing a proposed drug repurposing mechanism
+    for colorectal cancer.
+
+    You will receive a drug name, its target receptor(s), and associated PDB IDs.
+    Using only your prior biomedical knowledge learned during fine-tuning, you must:
+    - Assess whether there is a mechanistically plausible link to colorectal cancer.
+    - Be conservative and sceptical: avoid overstating weak or indirect evidence.
+
+    If there is no plausible or well-supported mechanistic link to colorectal cancer, print NO RELATION.
+
+    """Please follow the steps below"""
+    1. Summarise succinctly the receptor’s structural or functional characteristics based on the given PDB IDs.
+    2. Explain how the drug binds or modulates these receptors, and whether this mechanism is plausibly relevant
+       to colorectal cancer biology.
+    3. Describe any downstream signalling pathways that could connect this mechanism to colorectal cancer
+       (e.g. EGFR/MAPK, PI3K/AKT/mTOR, Wnt/β-catenin), and judge whether these links are direct, indirect, or speculative.
+    4. Identify uncertainties, alternative explanations, and key missing data.
+    5. Propose 1–2 concrete experimental or clinical follow-up steps (e.g., pathway assays, xenograft models,
+       small proof-of-concept trials) that would be needed to validate the mechanism.
+
+    <Output format>
+    {{
+      "Mechanism": "<Explain the key molecular interaction mechanism, if plausible>",
+      "Pathways": "<Summarise any potentially relevant signalling pathways and how strong the link is>",
+      "Uncertainties": "<Explicitly detail weaknesses, missing data, and suggested follow-up experiments>"
+    }}
+    </Output format>
+
+    <Input>
+    Drug: {Drug}
+    Receptor: {Receptor}
+    PDB IDs (if any): {PDB_ID}
+    Evidence: Use only prior knowledge learned during fine-tuning; do not invent citations.
+    </Input>
+
+    Constraints:
+    - Clearly label speculative links as speculative.
+    - If you judge there is effectively no plausible CRC connection, output NO RELATION and explain why.
+
+  few_shots: []
+  stop: []
+

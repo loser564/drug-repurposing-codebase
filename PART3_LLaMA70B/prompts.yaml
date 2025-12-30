@@ -13,12 +13,12 @@ prompts:
     3. Summarize the findings in the required structured JSON format.
 
     <Output format>
-    {
+    {{
       "Mechanism": "<Describe how the drug exerts its biochemical or molecular effects>",
       "Pathways": "<Summarize the affected signalling or metabolic pathways>",
       "Evidence": "<Summarize supporting findings from the literature>",
       "Uncertainties": "<List any conflicting or unclear points>"
-    }
+    }}
     </Output format>
 
     <Input>
@@ -45,11 +45,11 @@ prompts:
     4. Identify any uncertainties or knowledge gaps.
 
     <Output format>
-    {
+    {{
       "Mechanism": "<Explain the key molecular interaction mechanism>",
       "Pathways": "<Summarize relevant signalling pathways>",
       "Uncertainties": "<Note unclear or conflicting mechanisms>"
-    }
+    }}
     </Output format>
 
     <Input>
@@ -77,11 +77,11 @@ prompts:
     4. Identify any uncertainties or knowledge gaps.
 
     <Output format>
-    {
+    {{
       "Mechanism": "<Explain the key molecular interaction mechanism>",
       "Pathways": "<Summarize relevant signalling pathways>",
       "Uncertainties": "<Note unclear or conflicting mechanisms>"
-    }
+    }}
     </Output format>
 
     <Input>
@@ -115,11 +115,11 @@ prompts:
     4. Identify uncertainties, including where evidence is weak, indirect, or speculative.
 
     <Output format>
-    {
+    {{
       "Mechanism": "<Explain the key molecular interaction mechanism with clinical relevance>",
       "Pathways": "<Summarise relevant signalling pathways in colorectal cancer>",
       "Uncertainties": "<Note unclear, indirect, or conflicting mechanisms>"
-    }
+    }}
     </Output format>
 
     <Input>
@@ -156,11 +156,11 @@ prompts:
        small proof-of-concept trials) that would be needed to validate the mechanism.
 
     <Output format>
-    {
+    {{
       "Mechanism": "<Explain the key molecular interaction mechanism, if plausible>",
       "Pathways": "<Summarise any potentially relevant signalling pathways and how strong the link is>",
       "Uncertainties": "<Explicitly detail weaknesses, missing data, and suggested follow-up experiments>"
-    }
+    }}
     </Output format>
 
     <Input>
