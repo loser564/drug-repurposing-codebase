@@ -192,3 +192,12 @@ offload_cache/
 wandb/
 outputs/
 runs/
+
+## ignore llama fine-tuned model weights
+llama-1b-qlora-finetune/
+offload_cache/
+
+# ignore csv files
+.csv
+.tsv
+
